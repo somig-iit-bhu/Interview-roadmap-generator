@@ -1,0 +1,1924 @@
+This is actually a much better position than I expected.
+You don't have a data problem anymore.
+You have:
+Company
+Problem title
+URL
+Frequency
+Difficulty
+Acceptance rate
+Tags ✅
+Likes/dislikes ✅
+Similar questions ✅
+Solutions (partial) ✅
+For a placement project, that's enough.
+First: What is the project now?
+I think your project should NOT be:
+"Show frequently asked questions by company."
+That's too weak.
+The project should become:
+Interview Intelligence Engine
+Problem
+Students prepare inefficiently because:
+Thousands of questions exist
+Companies ask different patterns
+Students don't know high-yield topics
+Students don't know what to revise next
+Goal
+Given a company:
+Google
+Generate:
+1. Company Interview Profile
+Example:
+Top Topics:
+Graphs
+DP
+Trees
+Backtracking
+Difficulty:
+15% Easy
+65% Medium
+20% Hard
+2. Company Comparison
+Example:
+Google vs Amazon
+Output:
+Google:
+Graphs-heavy
+Amazon:
+Array-heavy
+Common:
+Trees
+Hashing
+3. Personalized Roadmap
+Input:
+Target Company = Google
+Solved:
+100 questions
+Weak:
+Graphs
+DP
+Output:
+Week 1:
+Graph BFS
+Week 2:
+DFS
+Week 3:
+DP Basics
+4. Question Recommendation
+Input:
+Recently solved:
+Two Sum
+3Sum
+Output:
+4Sum
+Combination Sum
+5. Topic Knowledge Graph
+Visual:
+Google
+ ├── Graph
+ │     ├── Number of Islands
+ │     ├── Rotting Oranges
+ │
+ ├── DP
+ │     ├── House Robber
+Now what should we build?
+Not the app.
+Not Streamlit.
+Not UI.
+First build the intelligence layer.
+Phase 1: Data Understanding
+Notebook:
+01_eda.ipynb
+Step 1
+Count unique tags.
+all_tags
+Example:
+Array
+Graph
+DP
+Heap
+...
+Create:
+tag_master.csv
+Step 2
+Top tags overall.
+tag_frequency
+Step 3
+Top tags per company.
+company_tag_frequency
+Save.
+Phase 2: Company Feature Engineering
+This is the most important dataset.
+Create:
+company_features.csv
+One row per company.
+Example:
+Company
+Array
+Graph
+DP
+Tree
+Google
+0.18
+0.15
+0.11
+0.09
+Add:
+Easy %
+Medium %
+Hard %
+Average acceptance
+Average likes
+Final:
+Company Feature Vector
+Phase 3: Company Clustering
+Now use those feature vectors.
+Input:
+Google
+Amazon
+Meta
+...
+Run:
+StandardScaler
+then
+AgglomerativeClustering
+Output:
+Cluster 1
+Google
+Meta
+Databricks
+Cluster 2
+Amazon
+Walmart
+Oracle
+Cluster 3
+Goldman Sachs
+JPMorgan
+This becomes your first ML component.
+Phase 4: Question Embeddings
+Now build NLP.
+Use:
+sentence-transformers
+Model:
+all-MiniLM-L6-v2
+Input:
+Question Title
+Output:
+384-dimensional vector
+Store embeddings.
+Phase 5: Topic Discovery
+Even though you already have tags.
+Do this anyway.
+Why?
+Because interviewers want to see NLP.
+Cluster embeddings.
+Example:
+Cluster:
+Two Sum
+3Sum
+4Sum
+Tag:
+Array + Hashing
+Another:
+Number of Islands
+Rotting Oranges
+Tag:
+Graph BFS
+This shows semantic understanding beyond LeetCode tags.
+Phase 6: Recommendation Engine
+This is probably the strongest ML feature.
+Input:
+Solved Questions
+Find:
+cosine_similarity
+between embeddings.
+Recommend:
+Similar Questions
+weighted by:
+company frequency
+difficulty
+topic importance
+Phase 7: Roadmap Generator
+Now combine everything.
+Suppose:
+Target Company = Google
+Compute:
+Google topic distribution
+Suppose:
+Graphs 18%
+DP 15%
+Trees 12%
+User solved:
+Arrays
+Strings
+Gap:
+Graphs
+DP
+Trees
+Generate roadmap.
+What I think the final project should contain
+Analytics Layer
+Company profile
+Company comparison
+Topic distributions
+ML Layer
+Company clustering
+Semantic embeddings
+Recommendation engine
+Visualization Layer
+Topic graph
+Cluster visualization
+Company similarity network
+User Layer
+Personalized roadmap
+If I were in your place, the next thing I would build is not clustering, not recommendation, not deployment.
+I would spend the next 2–3 days building:
+company_features.csv
+because that single dataset becomes the foundation for:
+clustering
+company similarity
+roadmap generation
+recommendation ranking
+company comparison
+Everything else depends on it.
+PROMPT
+i have a dataset containing and  leetcode questions i want to build. there are 17k rows but number of actual questions is 3500+. the number of companies are 600+ but not all companies have same number of qts.  
+Company
+•Problem title
+•URL
+•Frequency
+•Difficulty
+•Acceptance rate
+•Tags ✅
+•Likes/dislikes ✅
+•Similar questions ✅
+•Solutions (partial) ✅
+For a placement 2026 project from iitbhu, that's enough. 
+________________________________________
+First: What is the project now?
+I think your project should NOT be:
+"Show frequently asked questions by company."
+That's too weak.
+The project should become:
+Interview Intelligence Engine
+Problem
+Students prepare inefficiently because:
+•Thousands of questions exist
+•Companies ask different patterns
+•Students don't know high-yield topics
+•Students don't know what to revise next
+________________________________________
+Goal
+Given a company:
+Google
+Generate:
+1. Company Interview Profile
+Example:
+Top Topics:
+Graphs
+DP
+Trees
+Backtracking
+Difficulty:
+15% Easy
+65% Medium
+20% Hard
+________________________________________
+2. Company Comparison
+Example:
+Google vs Amazon
+Output:
+Google:
+Graphs-heavy
+Amazon:
+Array-heavy
+Common:
+Trees
+Hashing
+________________________________________
+3. Personalized Roadmap
+Input:
+Target Company = Google
+Solved:
+100 questions
+Weak:
+Graphs
+DP
+Output:
+Week 1:
+Graph BFS
+Week 2:
+DFS
+Week 3:
+DP Basics
+________________________________________
+4. Question Recommendation
+Input:
+Recently solved:
+Two Sum
+3Sum
+Output:
+4Sum
+Combination Sum
+________________________________________
+5. Topic Knowledge Graph
+Visual:
+Google
+ ├── Graph
+ │     ├── Number of Islands
+ │     ├── Rotting Oranges
+ │
+ ├── DP
+ │     ├── House Robber
+________________________________________
+Now what should we build?
+Not the app.
+Not Streamlit.
+Not UI.
+First build the intelligence layer.
+________________________________________
+Phase 1: Data Understanding
+Notebook:
+01_eda.ipynb
+________________________________________
+Step 1
+Count unique tags.
+all_tags
+Example:
+Array
+Graph
+DP
+Heap
+...
+Create:
+tag_master.csv
+________________________________________
+Step 2
+Top tags overall.
+tag_frequency
+________________________________________
+Step 3
+Top tags per company.
+company_tag_frequency
+Save.
+________________________________________
+Phase 2: Company Feature Engineering
+This is the most important dataset.
+Create:
+company_features.csv
+________________________________________
+One row per company.
+Example:
+CompanyArrayGraphDPTree
+Google0.180.150.110.09
+________________________________________
+Add:
+Easy %
+Medium %
+Hard %
+Average acceptance
+Average likes
+________________________________________
+Final:
+Company Feature Vector
+________________________________________
+Phase 3: Company Clustering
+Now use those feature vectors.
+________________________________________
+Input:
+Google
+Amazon
+Meta
+...
+________________________________________
+Run:
+StandardScaler
+then
+AgglomerativeClustering
+________________________________________
+Output:
+Cluster 1
+Google
+Meta
+Databricks
+Cluster 2
+Amazon
+Walmart
+Oracle
+Cluster 3
+Goldman Sachs
+JPMorgan
+________________________________________
+This becomes your first ML component.
+________________________________________
+Phase 4: Question Embeddings
+Now build NLP.
+________________________________________
+Use:
+sentence-transformers
+Model:
+all-MiniLM-L6-v2
+________________________________________
+Input:
+Question Title
+________________________________________
+Output:
+384-dimensional vector
+________________________________________
+Store embeddings.
+________________________________________
+Phase 5: Topic Discovery
+Even though you already have tags.
+Do this anyway.
+Why?
+Because interviewers want to see NLP.
+________________________________________
+Cluster embeddings.
+Example:
+Cluster:
+Two Sum
+3Sum
+4Sum
+Tag:
+Array + Hashing
+________________________________________
+Another:
+Number of Islands
+Rotting Oranges
+Tag:
+Graph BFS
+This shows semantic understanding beyond LeetCode tags.
+________________________________________
+Phase 6: Recommendation Engine
+This is probably the strongest ML feature.
+________________________________________
+Input:
+Solved Questions
+________________________________________
+Find:
+cosine_similarity
+between embeddings.
+________________________________________
+Recommend:
+Similar Questions
+weighted by:
+company frequency
+difficulty
+topic importance
+________________________________________
+Phase 7: Roadmap Generator
+Now combine everything.
+________________________________________
+Suppose:
+Target Company = Google
+________________________________________
+Compute:
+Google topic distribution
+________________________________________
+Suppose:
+Graphs 18%
+DP 15%
+Trees 12%
+________________________________________
+User solved:
+Arrays
+Strings
+________________________________________
+Gap:
+Graphs
+DP
+Trees
+________________________________________
+Generate roadmap.
+________________________________________
+What I think the final project should contain
+Analytics Layer
+•Company profile
+•Company comparison
+•Topic distributions
+________________________________________
+ML Layer
+•Company clustering
+•Semantic embeddings
+•Recommendation engine
+________________________________________
+Visualization Layer
+•Topic graph
+•Cluster visualization
+•Company similarity network
+________________________________________
+User Layer
+•Personalized roadmap
+________________________________________
+If I were in your place, the next thing I would build is not clustering, not recommendation, not deployment.
+I would spend the next 2–3 days building:
+company_features.csv
+because that single dataset becomes the foundation for:
+•clustering
+•company similarity
+•roadmap generation
+•recommendation ranking
+•company comparison
+Everything else depends on it.
+also i made new col def company_tier(n):
+    if n >= 100:
+        return "Tier_A"
+    elif n >= 30:
+        return "Tier_B"
+    else:
+        return "Tier_C"
+company_tier
+Tier_A    12144
+Tier_C     3022
+Tier_B     2475
+Difficulty
+Medium    10082
+Easy       4329
+Hard       3230
+the data is imbalanced.
+now how to proceed give step by step process. smallest to smallest step from start to end what do i do 
+YELLLOW
+You're at the stage where most student projects fail: people jump into ML before building the data foundation.
+Your mentor's advice is correct. Do not touch embeddings, clustering, recommendations, or Streamlit yet.
+The next goal is:
+Build a clean company-level feature dataset that can power every future module.
+Phase 0 — Freeze the Scope
+For IIT BHU placement project, define the final deliverables now.
+Deliverable 1
+Company Intelligence
+Company profile
+Company comparison
+Topic distributions
+Deliverable 2
+ML
+Company clustering
+Question similarity
+Recommendation engine
+Deliverable 3
+Personalization
+Roadmap generator
+Deliverable 4
+Visualization
+Knowledge graph
+Company network
+Topic trends
+Everything else should support these.
+Phase 1 — Data Cleaning
+Create notebook:
+01_data_cleaning.ipynb
+Step 1.1
+Check shape
+df.shape
+Expected:
+17000 x ?
+Step 1.2
+Check duplicates
+Since one question can appear under multiple companies.
+Find:
+df["Problem title"].nunique()
+Expected:
+~3500
+Step 1.3
+Create Question Master
+One row per unique question.
+Columns:
+question_id
+title
+difficulty
+acceptance
+tags
+likes
+dislikes
+url
+Save:
+question_master.csv
+Step 1.4
+Create Company-Question Table
+Keep:
+company
+question_id
+frequency
+Save:
+company_question.csv
+This becomes your relationship table.
+Phase 2 — Tag Engineering
+Notebook:
+02_tag_analysis.ipynb
+Step 2.1
+Extract tags
+Example:
+["Array","Hash Table","Two Pointers"]
+into
+Array
+Hash Table
+Two Pointers
+Step 2.2
+Create Tag Master
+all_tags = set(...)
+Save:
+tag_master.csv
+Example:
+Array
+Graph
+DP
+Heap
+Trie
+Backtracking
+...
+Step 2.3
+Overall Tag Frequency
+Output:
+Tag          Count
+Array        1200
+Graph         850
+DP            720
+Save:
+overall_tag_frequency.csv
+Step 2.4
+Company-wise Tag Frequency
+Example:
+Google Graph 220
+Google DP 180
+Amazon Array 250
+Amazon String 210
+Save:
+company_tag_frequency.csv
+Phase 3 — Company Feature Engineering
+Most important phase.
+Notebook:
+03_company_features.ipynb
+Step 3.1
+For each company compute
+Question count
+total_questions
+Difficulty %
+easy_pct
+medium_pct
+hard_pct
+Acceptance stats
+avg_acceptance
+median_acceptance
+Popularity
+avg_likes
+avg_dislikes
+Frequency stats
+avg_frequency
+max_frequency
+Step 3.2
+Topic Vector
+For every tag:
+Array_pct
+Graph_pct
+DP_pct
+Tree_pct
+Heap_pct
+...
+Example:
+Google
+Array=0.12
+Graph=0.18
+DP=0.15
+Tree=0.11
+Step 3.3
+Company Tier Feature
+You already made:
+def company_tier(n):
+    if n >= 100:
+        return "Tier_A"
+    elif n >= 30:
+        return "Tier_B"
+    else:
+        return "Tier_C"
+Keep it.
+Add:
+tier_encoded
+Example:
+Tier_A -> 3
+Tier_B -> 2
+Tier_C -> 1
+Step 3.4
+Final Dataset
+One row:
+Google
+easy_pct
+medium_pct
+hard_pct
+avg_acceptance
+Array_pct
+Graph_pct
+DP_pct
+Tree_pct
+tier
+question_count
+...
+Save:
+company_features.csv
+This file becomes the heart of the project.
+Phase 4 — EDA on Companies
+Notebook:
+04_company_eda.ipynb
+Step 4.1
+Top companies by question count
+Bar chart.
+Step 4.2
+Top topics per company
+Example:
+Google
+show:
+Graph
+DP
+Tree
+Step 4.3
+Difficulty distribution
+Company-wise.
+Step 4.4
+Acceptance distribution
+Boxplots.
+Phase 5 — Company Similarity Engine
+Notebook:
+05_company_similarity.ipynb
+Input:
+company_features.csv
+Step 5.1
+Feature Scaling
+StandardScaler()
+Step 5.2
+Cosine Similarity
+cosine_similarity(X)
+Output:
+Google → Meta 0.91
+Google → Databricks 0.88
+Step 5.3
+Company Comparison Module
+Input:
+Google vs Amazon
+Output:
+Top topics
+Common topics
+Difficulty difference
+This is already a deployable feature.
+Phase 6 — Company Clustering
+Notebook:
+06_company_clustering.ipynb
+Step 6.1
+Scale Features
+StandardScaler()
+Step 6.2
+PCA
+PCA(2)
+For visualization.
+Step 6.3
+Clustering
+Try:
+AgglomerativeClustering
+Then:
+KMeans
+Compare.
+Step 6.4
+Evaluate
+silhouette_score
+Choose best k.
+Step 6.5
+Interpret Clusters
+Example:
+Cluster 1
+Google
+Meta
+Databricks
+Graph-heavy
+This is your first real ML result.
+Phase 7 — Question Embeddings
+Notebook:
+07_question_embeddings.ipynb
+Now NLP starts.
+Step 7.1
+Text
+Combine:
+title
+tags
+similar_questions
+partial_solution
+Do NOT use only title.
+Use:
+text = title + tags + solution
+Better semantics.
+Step 7.2
+Embedding Model
+sentence-transformers
+all-MiniLM-L6-v2
+Produces:
+384 dimensions
+Step 7.3
+Store
+question_embeddings.npy
+Step 7.4
+Metadata
+question_id
+embedding_index
+Save mapping.
+Phase 8 — Semantic Topic Discovery
+Notebook:
+08_topic_discovery.ipynb
+Cluster embeddings.
+Methods:
+UMAP
++
+HDBSCAN
+or
+KMeans
+Output:
+Cluster 1
+Two Sum
+3Sum
+4Sum
+Cluster 2
+Number of Islands
+Rotting Oranges
+Great NLP talking point for interviews.
+Phase 9 — Recommendation Engine
+Notebook:
+09_recommendation_engine.ipynb
+Input:
+solved_questions
+Find:
+cosine_similarity
+between embeddings.
+Ranking Score:
+0.5 * similarity
++
+0.3 * company_frequency
++
+0.2 * topic_importance
+Recommend Top 10.
+Phase 10 — Roadmap Generator
+Notebook:
+10_roadmap_generator.ipynb
+Input:
+Target company
+Solved questions
+Compute:
+Company topic profile
+Compute:
+User topic profile
+Gap:
+Google needs:
+Graph 18%
+DP 15%
+User:
+Graph 2%
+DP 1%
+Generate:
+Week 1 BFS
+Week 2 DFS
+Week 3 Shortest Path
+Week 4 DP Basics
+This becomes your flagship feature.
+About the imbalance
+Your current distributions:
+Tier_A = 12144
+Tier_B = 2475
+Tier_C = 3022
+Medium = 10082
+Easy   = 4329
+Hard   = 3230
+For now:
+Ignore it.
+Why?
+Because you're not training a supervised classifier yet.
+You're doing:
+EDA
+clustering
+similarity
+embeddings
+recommendations
+None of these require balanced classes.
+Only worry about imbalance if later you train something like:
+Predict company
+Predict difficulty
+Predict acceptance
+So don't waste time on SMOTE, undersampling, etc. right now.
+Immediate next task (today)
+Build these three CSVs first:
+question_master.csv
+company_question.csv
+company_features.csv
+Once company_features.csv is complete and validated, you're ready for clustering, similarity, comparison, and roadmap generation. That's the true foundation of the project.
+YELLOW
+Since you're aiming for Data Scientist roles and not just a portfolio project, I'll evaluate it the way an interviewer at a good company might.
+Short answer
+Right now, it's about 70% analytics and 30% ML.
+If you stop after:
+EDA
+Similarity matrix
+KMeans clustering
+Streamlit dashboard
+then many interviewers will think:
+"Nice data analysis project. Where is the actual modeling, experimentation, evaluation, and research thinking?"
+That's the brutal reality.
+First: Should you remove company tier?
+Yes.
+At least from clustering and similarity.
+Your tier is:
+if n >= 100:
+    Tier_A
+elif n >= 30:
+    Tier_B
+else:
+    Tier_C
+This is a feature you invented from question_count.
+So if you include:
+question_count
+tier_encoded
+you're essentially giving the same information twice.
+Even worse:
+question_count -> tier
+means tier is derived from another feature.
+For clustering I'd keep:
+question_count
+and remove:
+tier
+tier_encoded
+You can still show tier in the dashboard later.
+Second: Why do the similarity functions look so simple?
+Because cosine similarity is simple.
+The code:
+cosine_similarity(X_scaled)
+is literally one line.
+But don't confuse:
+simple code
+with
+simple project
+Google's PageRank formula is also not many lines.
+The question is:
+What problem are you solving?
+not
+How many lines of code did you write?
+Now the brutal interview review
+Suppose I'm interviewing you.
+I ask:
+Tell me about your LeetCode company intelligence project.
+You answer:
+I cleaned 17k rows, engineered company features, performed clustering and similarity analysis.
+My next thought:
+Okay... that's mostly analytics.
+Then I ask:
+What ML problem did you solve?
+And that's where the current version becomes weak.
+Current project rating
+For Data Analyst role:
+8.5/10
+Very good.
+For Data Scientist role:
+6.5/10
+because:
+no predictive modeling
+no recommendation evaluation
+no NLP modeling yet
+no experimentation
+no research question
+What interviewers actually like
+They like hearing:
+I formulated a problem, built a representation, tested multiple approaches, evaluated them, and justified my choice.
+Notice:
+No mention of Streamlit.
+No mention of plots.
+No mention of dashboards.
+The strongest part of your dataset
+Most people miss this.
+Your strongest asset is NOT company data.
+It's:
+3500 unique LeetCode questions
+This is where the DS project lives.
+What would make this project strong?
+After clustering companies:
+Move immediately to question embeddings.
+Not later.
+Immediately.
+What I'd do if I were building this for DS interviews
+Stage 1
+Current work
+Keep:
+Data cleaning
+Feature engineering
+Company profiles
+Company similarity
+Company clustering
+This becomes:
+Foundation
+Stage 2
+Question embeddings
+Use:
+sentence-transformers/all-MiniLM-L6-v2
+Build embeddings for all questions.
+Now every question becomes:
+384-dimensional vector
+Now you're doing representation learning.
+Interviewers like this.
+Stage 3
+Evaluate embeddings
+Most students stop here:
+embeddings = model.encode(...)
+That's not impressive.
+Do:
+Test 1
+For:
+Two Sum
+retrieve nearest neighbors.
+Do they make sense?
+Test 2
+For:
+Number of Islands
+retrieve nearest neighbors.
+Measure semantic quality.
+Now you're discussing evaluation.
+Interviewers love that.
+Stage 4
+Topic discovery
+Run:
+UMAP
+then
+HDBSCAN
+or
+KMeans
+on embeddings.
+Now you discover hidden question groups.
+Not tags.
+Hidden groups.
+Example:
+Cluster 1:
+Sliding Window Variants
+Cluster 2:
+Graph Traversal
+Cluster 3:
+Union Find Problems
+This is much more interesting than company clustering.
+Stage 5
+Recommendation System
+This is where the DS value jumps.
+Input:
+Solved:
+Two Sum
+3 Sum
+Container With Most Water
+Recommend:
+Trapping Rain Water
+because embedding similarity suggests it.
+Now you have:
+Retrieval System
+Stage 6
+Personalized Roadmap
+This is probably the most impressive feature.
+Not because it's difficult.
+Because it solves a real problem.
+Example:
+Target: Google
+Google profile:
+Graph 18%
+DP 15%
+User:
+Graph 2%
+DP 1%
+Gap analysis.
+Generate roadmap.
+Now you're doing:
+Recommendation
++
+Personalization
+What would impress me most as interviewer?
+Not clustering.
+Not PCA.
+Not Streamlit.
+Not heatmaps.
+I'd be impressed if you said:
+I represented 3500 coding problems using transformer embeddings, discovered latent topic clusters, built a content-based recommendation engine, and generated company-specific preparation roadmaps using company-question distributions.
+That's a Data Science project.
+If I were grading the final project
+Stop now
+(with clustering only)
+6.5/10 DS project
+Add embeddings
+7.5/10
+Add topic discovery
+8/10
+Add recommendation engine
+8.5/10
+Add roadmap generator with evaluation
+9/10
+At that point, it no longer looks like an analytics dashboard. It looks like a complete data product built on NLP, unsupervised learning, recommendation systems, and feature engineering—which is much closer to what interviewers for Data Scientist internships and entry-level roles want to discuss.
+One more thing: don't worry that the similarity code is only a few lines. Interviewers rarely care about the number of lines. They care about:
+Why cosine similarity?
+Why those features?
+Why StandardScaler?
+How did you validate the results?
+What alternative approaches did you try?
+Those answers matter far more than whether the implementation took 5 lines or 500.
+Step 1
+Find Google's frequently asked questions.
+Example:
+Google:Graph 18%DP 15%Tree 12%
+Step 2
+Find what the user has solved.
+User:ArrayTreeHash Map
+Step 3
+Find the gap.
+Graph deficitDP deficit
+Step 4
+Among Google's Graph questions,
+rank by
+0.5 × embedding similarity+0.3 × company frequency+0.2 × topic deficit
+Now you have:
+Company-specific recommendations.
+ACTUAL STEP
+This is actually the point where your project can stop looking like an analytics dashboard and start looking like a Data Science project.
+If I were mentoring this project for an IIT BHU placement, I would pivot now. You have already extracted most of the value from the structured company data. The next stage should revolve around learning a semantic representation of questions rather than engineering more company features.
+Final Project Architecture
+Think of the project as four layers.
+                 Raw Dataset
+                      │
+      ┌───────────────┴────────────────┐
+      │                                │
+Structured Features              Question Text
+(company stats, tags...)      (title, tags, summary...)
+      │                                │
+      ▼                                ▼
+Company Profiles             Question Embeddings (NLP)
+      │                                │
+      └───────────────┬────────────────┘
+                      ▼
+         Recommendation + Roadmap
+Notice that recommendations are built by combining company information and semantic question information.
+Phase 1 (Already Done)
+You already have:
+Clean dataset
+Company features
+Company similarity
+Company-tag frequencies
+EDA
+Don't spend much more time here.
+Phase 2 — Build a Question Master Table
+One row per unique question.
+For example:
+question_id
+title
+difficulty
+tags
+summary
+frequency
+No duplicates.
+Phase 3 — Build the NLP Corpus
+This is where NLP starts.
+Step 3.1
+Look at every text column.
+For example you might have:
+Problem title
+Problem description
+Tags
+Hints
+Similar questions
+Solution summary
+Not all are equally useful.
+Step 3.2
+Create ONE text field.
+Don't embed only the title.
+Instead concatenate useful fields.
+Example:
+text = (
+    title
+    + " "
+    + tags
+    + " "
+    + summary
+)
+If you have a cleaned problem summary, include that too.
+If similar_questions has nulls, just replace nulls with an empty string:
+df["similar_questions"] = df["similar_questions"].fillna("")
+A few hundred nulls out of 3500 questions are not a problem.
+Step 3.3
+Clean the text lightly
+You do not need aggressive NLP preprocessing for transformer models.
+Do not remove stopwords.
+Do not stem.
+Do not lemmatize.
+Just:
+fill missing values
+normalize whitespace
+maybe lowercase (optional)
+Transformer models are trained on natural text.
+Phase 4 — Generate Embeddings
+This is the biggest ML step.
+Use a sentence transformer.
+For example:
+all-MiniLM-L6-v2
+For every question:
+text
+↓
+Sentence Transformer
+↓
+384-dimensional vector
+Now every question has a semantic representation.
+Store:
+question_embeddings.npy
+Also keep:
+question_id
+embedding_index
+Phase 5 — Validate Embeddings
+Don't stop after generating them.
+Evaluate them.
+Example:
+Take:
+Two Sum
+Retrieve the 10 nearest neighbours.
+Do you get:
+3Sum
+Two Sum II
+4Sum
+If yes, that's evidence your embeddings capture semantic similarity.
+Repeat with:
+Number of Islands
+LRU Cache
+Binary Tree Inorder Traversal
+Include these qualitative examples in your report.
+Phase 6 — Company Embeddings
+This is the step I'd add that many student projects miss.
+Each company has many questions.
+Each question has an embedding.
+Represent a company by aggregating the embeddings of its questions.
+For example:
+Google
+Question A embedding
+Question B embedding
+Question C embedding
+↓
+Mean (or weighted mean using frequency)
+↓
+Google embedding
+Do this for every company.
+Now every company has:
+engineered features
+semantic embedding
+This captures what kinds of questions a company asks, not just percentages.
+Phase 7 — Recommendation System
+Now you can combine three signals.
+Signal 1
+Semantic similarity.
+Questions similar to those the user has solved.
+Signal 2
+Company relevance.
+How frequently does the target company ask the question?
+Signal 3
+Topic gap.
+How underprepared is the user in that topic?
+Final score could be:
+score =
+0.45 × semantic_similarity
++
+0.35 × normalized_company_frequency
++
+0.20 × topic_gap
+The weights don't have to be perfect—you can justify them and experiment.
+Example
+Target:
+Google
+Solved:
+Two Sum
+Merge Intervals
+Binary Tree Level Order Traversal
+Candidate question:
+Number of Islands
+Suppose:
+semantic similarity = 0.82
+Google frequency = 0.90
+Graph gap = 0.95
+Overall score:
+0.45×0.82
++
+0.35×0.90
++
+0.20×0.95
+=
+0.874
+Rank all candidate questions by this score.
+Recommend the top N.
+Phase 8 — User Profile
+Instead of storing only solved questions, compute a profile.
+For every solved question:
+add its tags
+add its embedding
+Now compute:
+topic distribution
+average embedding
+You now have a semantic representation of the user.
+Phase 9 — Roadmap Generator
+This is where everything comes together.
+Step 1
+User profile.
+Example:
+Graph: 5%
+DP: 3%
+Tree: 25%
+Array: 40%
+Step 2
+Company profile.
+Google
+Graph: 18%
+DP: 15%
+Tree: 10%
+Array: 8%
+Step 3
+Compute the gap.
+Graph gap = 13%
+DP gap = 12%
+Array gap = -32%
+Positive gaps indicate underrepresented areas.
+Step 4
+For each missing topic:
+Retrieve candidate questions that satisfy:
+belong to that topic
+high semantic diversity (avoid near-duplicates)
+frequently asked by the target company
+appropriate difficulty progression
+For example:
+Week 1:
+Easy Graph questions
+Week 2:
+Medium Graph questions
+Week 3:
+Easy DP
+Week 4:
+Medium DP
+This becomes a personalized study plan.
+Phase 10 — Evaluate Your Recommendation System
+This is something that will distinguish your project.
+Don't just show recommendations.
+Evaluate them.
+Possible evaluations:
+Are recommended questions actually tagged with the company's top topics?
+Do they avoid recommending already solved questions?
+Are the nearest neighbours semantically related?
+Compare recommendations with and without embeddings.
+Even qualitative evaluation ("these retrieved questions are clearly about graph traversal") is valuable if you're transparent about it.
+A roadmap for the next few weeks
+Finalize the question master table.
+Create one combined text field from title, tags, summary, and other useful text.
+Generate sentence-transformer embeddings for every question.
+Build and evaluate a question similarity search.
+Aggregate question embeddings into company embeddings.
+Build a company-aware recommendation score using semantic similarity, company frequency, and topic gaps.
+Build the user profile.
+Generate a personalized roadmap.
+Evaluate the recommendation quality and document your design choices.
+One suggestion that I think would make this stand out
+Instead of presenting it as:
+"LeetCode Company Analyzer"
+I'd frame it as:
+An AI-powered interview preparation system that learns semantic relationships between coding problems and generates company-specific study plans.
+That title better reflects the NLP, embeddings, retrieval, and recommendation components you're planning to build, and it signals to interviewers that the project goes beyond descriptive analytics into applied machine learning.
+Now the brutal part.
+Things that would NOT impress me
+If your interview is:
+"I used KMeans."
+No.
+Every resume has:
+KMeans(...)
+"I used PCA."
+No.
+"I made a Streamlit dashboard."
+No.
+"I plotted 15 graphs."
+Definitely not.
+Those are expected.
+Things that WOULD impress me
+If you say:
+"The initial hypothesis was that companies form distinct interview clusters. I tested seven clustering algorithms and found consistently low silhouette scores, so I concluded the data behaves more like a continuum than discrete groups."
+That tells me you didn't force a result.
+Then:
+"I shifted to representation learning using sentence transformers."
+Good.
+Then:
+"I represented each company as an aggregation of question embeddings."
+Very good.
+Then:
+"Recommendations combine semantic similarity, company relevance, and topic gaps."
+Now I'm interested.
+Then:
+"I evaluated retrieval quality qualitatively and compared different ranking strategies."
+Now we have something to discuss.
+Here's where I think your project is still missing something
+This is the brutal feedback.
+Right now, almost everything you've described uses existing pretrained models.
+That's fine.
+But interviewers may ask:
+"What did you design?"
+If your answer is:
+"I used MiniLM."
+That's not enough.
+Your contribution should be in:
+how you represent companies 
+how you combine signals into a ranking 
+how you evaluate recommendations 
+how you justify design choices 
+That's the engineering and data science work.
+If I were comparing resumes
+Resume A
+Titanic prediction.
+House price prediction.
+MNIST.
+Rejected quickly.
+Resume B
+Customer churn prediction.
+Loan default.
+Fraud detection.
+Still common.
+Resume C (yours, if completed well)
+AI-powered interview preparation system.
+Company profiling 
+Semantic retrieval 
+Recommendation engine 
+Personalized roadmap 
+NLP embeddings 
+Network analysis or similarity 
+Careful evaluation 
+That's more memorable because it's a product built around a domain rather than a standard Kaggle problem.
+Would I think it's common?
+No.
+I've interviewed and reviewed many student portfolios.
+I've seen:
+Titanic 
+MNIST 
+CIFAR 
+Sentiment analysis 
+Movie recommendation 
+Fake news detection 
+I've rarely seen someone build a company-aware interview preparation system with semantic retrieval.
+The idea itself is not the problem.
+The execution is.
+Here's the biggest risk I see
+If everything ends up being:
+model = SentenceTransformer(...)embeddings = model.encode(...)cosine_similarity(...)done
+Then I'd think:
+"This candidate assembled libraries but didn't do much analysis."
+That's the danger.
+Here's what would make me remember you
+Suppose I ask:
+"Why did you choose this ranking function?"
+And you answer:
+"I tried three weighting schemes. Increasing the company-frequency weight produced repetitive recommendations, while increasing semantic similarity improved diversity but sometimes recommended less relevant topics. The final weighting balanced semantic relevance with company-specific importance."
+That's a Data Scientist answer.
+If you want this to compete at IIT BHU
+Here's what I think you should aim for.
+Don't aim to show that you know:
+pandas 
+sklearn 
+sentence-transformers 
+Assume every strong candidate knows those.
+Instead, demonstrate that you can:
+Formulate a problem. 
+Build useful representations. 
+Test hypotheses. 
+Evaluate results. 
+Explain trade-offs. 
+Iterate when the data contradicts your assumptions. 
+AGAIN
+NOTEBOOK 8
+I'm glad you asked this because this is where your project can become noticeably stronger. I actually think company embeddings are one of the most interesting additions you can make, and they're much more valuable than spending another week trying different clustering algorithms.
+One thing I'd change from what I suggested earlier is how you build them. Don't just take a plain average of all question embeddings. That throws away useful information you already have—specifically, company-question frequency.
+Instead, build two versions:
+Simple mean embedding (baseline)
+Frequency-weighted mean embedding (your improved representation)
+Then compare them. That comparison itself becomes part of your project.
+📓 Notebook 07D (or 08A): Company Embeddings
+Goal
+Convert every company into a dense semantic vector using the embeddings of the questions it asks.
+Input:
+question_embeddings.npy
+embedding_metadata.csv
+company_question.csv
+Output:
+company_embeddings.csv
+company_embedding_lookup.pkl
+Step 1 — Imports
+import numpy as np
+import pandas as pd
+from tqdm.auto import tqdm
+from sklearn.metrics.pairwise import cosine_similarity
+import joblib
+Step 2 — Load Data
+questions = pd.read_csv("embedding_metadata.csv")
+company_question = pd.read_csv("company_question.csv")
+embeddings = np.load("question_embeddings.npy")
+Step 3 — Quick Check
+print(questions.shape)
+print(company_question.shape)
+print(embeddings.shape)
+Example
+Questions : 3358
+Embeddings : (3358,384)
+Company Question : 17000 rows
+Step 4 — Build Question → Embedding Lookup
+This is extremely important.
+Otherwise you'll keep searching arrays.
+question_lookup = dict(
+    zip(
+        questions["question_id"],
+        embeddings
+    )
+)
+Test
+question_lookup[101].shape
+Expected
+(384,)
+Step 5 — Check Missing Questions
+Sometimes the company table contains question IDs that don't exist.
+missing = set(company_question.question_id) - set(question_lookup.keys())
+print(len(missing))
+Should ideally be
+0
+Step 6 — Simple Mean Company Embedding
+We'll build the baseline first.
+company_embeddings = {}
+Loop.
+companies = company_question.company.unique()
+for company in tqdm(companies):
+    qids = company_question.loc[
+        company_question.company == company,
+        "question_id"
+    ]
+    vectors = []
+    for q in qids:
+        if q in question_lookup:
+            vectors.append(question_lookup[q])
+    vectors = np.array(vectors)
+    company_embeddings[company] = vectors.mean(axis=0)
+Done.
+Every company now has
+384 dimensions
+Step 7 — Convert to DataFrame
+company_embedding_df = pd.DataFrame.from_dict(
+    company_embeddings,
+    orient="index"
+)
+company_embedding_df.index.name = "company"
+company_embedding_df.reset_index(inplace=True)
+Step 8 — Save
+company_embedding_df.to_csv(
+    "company_embedding_mean.csv",
+    index=False
+)
+Step 9 — Improved Version (Weighted Mean)
+This is the version I'd actually use.
+Suppose
+Google
+Two Sum
+frequency = 95
+Another question
+frequency = 3
+They should not contribute equally.
+First normalize frequencies.
+company_question["frequency"] = (
+company_question["frequency"]
+/
+company_question["frequency"].max()
+)
+Now compute weighted average.
+weighted_company_embeddings = {}
+Loop.
+for company in tqdm(companies):
+    temp = company_question[
+        company_question.company == company
+    ]
+    vectors = []
+    weights = []
+    for _, row in temp.iterrows():
+        qid = row.question_id
+        if qid in question_lookup:
+            vectors.append(
+                question_lookup[qid]
+            )
+            weights.append(
+                row.frequency
+            )
+    vectors = np.array(vectors)
+    weights = np.array(weights)
+    company_vector = np.average(
+        vectors,
+        axis=0,
+        weights=weights
+    )
+    weighted_company_embeddings[company] = company_vector
+Save.
+weighted_df = pd.DataFrame.from_dict(
+    weighted_company_embeddings,
+    orient="index"
+)
+weighted_df.index.name = "company"
+weighted_df.reset_index(inplace=True)
+weighted_df.to_csv(
+    "company_embedding_weighted.csv",
+    index=False
+)
+Step 10 — Compare Mean vs Weighted
+Now compare similarity.
+Function.
+def company_similarity(
+    company,
+    embedding_df,
+    top_k=10
+):
+    names = embedding_df.company
+    X = embedding_df.drop(
+        columns="company"
+    ).values
+    sim = cosine_similarity(X)
+    idx = names[names == company].index[0]
+    scores = sim[idx]
+    top = np.argsort(scores)[::-1][1:top_k+1]
+    result = pd.DataFrame({
+        "Company":names.iloc[top].values,
+        "Similarity":scores[top]
+    })
+    return result
+Run.
+company_similarity(
+    "Google",
+    company_embedding_df
+)
+Then
+company_similarity(
+    "Google",
+    weighted_df
+)
+Observe differences.
+Step 11 — Visualize Company Embeddings
+from sklearn.decomposition import PCA
+X = weighted_df.drop(
+    columns="company"
+)
+pca = PCA(
+    n_components=2,
+    random_state=42
+)
+proj = pca.fit_transform(X)
+Plot.
+plt.figure(figsize=(10,8))
+plt.scatter(
+    proj[:,0],
+    proj[:,1],
+    s=40
+)
+for i,name in enumerate(weighted_df.company):
+    plt.text(
+        proj[i,0],
+        proj[i,1],
+        name,
+        fontsize=7
+    )
+plt.show()
+Step 12 — Save Lookup
+lookup = dict(
+zip(
+weighted_df.company,
+weighted_df.drop(
+columns="company"
+).values
+)
+)
+joblib.dump(
+lookup,
+"company_embedding_lookup.pkl"
+)
+Why this is stronger than just averaging
+In an interview, you can say:
+"I first implemented a simple mean embedding as a baseline. However, I realized that not all questions contribute equally to a company's interview profile. Since my dataset contains company-specific question frequencies, I built a weighted aggregation where frequently asked questions have greater influence on the company embedding. I compared both representations qualitatively through nearest-company retrieval."
+That sounds like your design decision, not something copied from a tutorial.
+One correction to my earlier suggestion
+I would not normalize frequency by dividing through the global maximum (max() over all companies). That can let one extremely frequent question dominate.
+A better approach is to normalize within each company before computing the weighted average:
+temp = temp.copy()
+temp["weight"] = temp["frequency"] / temp["frequency"].sum()
+Then use temp["weight"] as the weights in np.average. This ensures every company's embedding is a convex combination of its own questions, making company vectors comparable regardless of how many questions or how much total frequency each company has. That's the version I'd recommend using in your final project.
+ 
+NOTEBOOK 8N
+N
+NEXT STEPS
+I'm going to be as candid as I would be if I were reviewing this project for a strong campus data science role.
+If you stop here...
+If your project is:
+EDA
+Company features
+TF-IDF
+SentenceTransformer
+Cosine similarity
+Streamlit dashboard
+then I'd rate it roughly:
+7/10 for a Data Analyst role
+6–6.5/10 for a Data Scientist role at a top company
+Why?
+Because from an interviewer's perspective, most of the ML is "using existing tools":
+TF-IDF → standard
+MiniLM → pretrained
+Cosine similarity → standard
+Weighted average → heuristic
+Streamlit → presentation
+None of those are bad. They're just common.
+What would I think in an interview?
+If I ask:
+"What model did you build?"
+and you answer:
+"Sentence Transformer"
+My next question is:
+"You mean you used a pretrained model?"
+Then:
+"What did you contribute?"
+This is the question your project currently struggles to answer.
+What actually impresses DS interviewers?
+Most students think:
+"More deep learning = better."
+Not really.
+Interviewers care about:
+Problem formulation
+Feature engineering
+Experimental design
+Evaluation
+Trade-off analysis
+You've already done a lot of feature engineering. That's good.
+But your project needs one component that is unmistakably your own.
+Here's what I would add (in order of impact)
+1. Learn the recommendation weights instead of choosing them ⭐⭐⭐⭐⭐
+Right now you have:
+0.45 Semantic
+0.25 Frequency
+0.20 Topic Gap
+0.10 Difficulty
+Why?
+No answer.
+Instead:
+Create synthetic train/validation splits.
+Simulate a user's solved questions.
+Hide 20% of company questions.
+Optimize the weights to maximize Recall@10 or Precision@10.
+Now you can say:
+"The ranking weights were tuned using offline evaluation."
+That's much stronger than hand-picking numbers.
+2. Build a hybrid retrieval model ⭐⭐⭐⭐⭐
+Instead of:
+SentenceTransformer
+Build:
+TF-IDF
++
+Sentence Transformer
++
+Company Features
+Combine them.
+Now you're building a retrieval pipeline.
+3. Evaluate your recommender properly ⭐⭐⭐⭐⭐
+This is probably the single biggest missing piece.
+Create an evaluation notebook.
+For each company:
+Hide 20% of questions.
+Recommend Top-20.
+Compute:
+Recall@10
+Recall@20
+Precision@10
+MAP
+NDCG
+Now your project has measurable performance.
+This alone moves it much closer to a data science project.
+4. Company embedding comparison ⭐⭐⭐⭐
+Compare:
+Feature similarity
+Semantic similarity
+Hybrid similarity
+Analyze differences.
+That's thoughtful modeling.
+5. Explainability ⭐⭐⭐⭐
+Instead of:
+Recommended:
+Question X
+Show:
+Semantic Similarity : 0.91
+Topic Gap : Graph
+Company Frequency : 0.83
+Difficulty Match : Medium
+Final Score : 0.87
+Now every recommendation is explainable.
+6. Ablation study ⭐⭐⭐⭐
+This is something many students skip.
+Run:
+Only TF-IDF
+Only MiniLM
+MiniLM + Frequency
+MiniLM + Frequency + Topic
+Full Model
+Compare Recall@10.
+Now you have evidence that each component contributes.
+Notice something?
+None of these require another deep learning model.
+They require scientific thinking.
+That's what interviewers look for.
+About "proper NLP"
+You said:
+"We didn't even do proper NLP."
+Actually, you did.
+You performed:
+Text cleaning
+Corpus construction
+Lexical representation (TF-IDF)
+Semantic representation (Sentence Transformers)
+Semantic retrieval
+That's already an NLP pipeline.
+You didn't train a transformer.
+That's okay.
+Very few production teams train transformers from scratch.
+Now about Streamlit
+I would not make a simple dashboard.
+I would make it look like a product.
+Home
+LeetCode Company Intelligence Platform
+Buttons
+Company Analytics
+Question Search
+Recommendation
+Roadmap
+Similarity Explorer
+Company Analytics
+Select
+Google
+Display
+Question count
+Difficulty distribution
+Top tags
+Company embedding neighbours
+Feature neighbours
+Top questions
+Company Comparison
+Choose
+Google
+vs
+Amazon
+Show
+Common tags
+Unique tags
+Radar chart
+Similarity score
+Shared questions
+Semantic Search
+Type
+Binary Tree
+Retrieve
+Top 10 similar questions.
+Personalized Recommendation
+Inputs
+Target Company
+Solved Questions
+Button
+Recommend
+Output
+Table
+Question
+Difficulty
+Similarity
+Frequency
+Reason
+Roadmap
+Inputs
+Target Company
+Solved Questions
+Weeks
+Output
+Week 1
+Question A
+Question B
+Question C
+Download CSV.
+Explainability
+Click any recommendation.
+Show
+Semantic Similarity
+Topic Gap
+Difficulty
+Company Importance
+Final Score
+This is the page that interviewers love.
+Final brutally honest rating
+If you submit today
+I'd say:
+6.5–7/10 for DS.
+If you add:
+Offline evaluation (Recall@K, Precision@K, MAP, NDCG)
+Weight optimization instead of manual weights
+Hybrid retrieval
+Ablation study
+Explainability
+Product-quality Streamlit app
+I'd move it to around 8.5–9/10.
+Not because it's using a more advanced model, but because it demonstrates that you understand how to design, evaluate, and justify a machine learning system.
+One last piece of advice
+Because you're from IIT BHU and aiming for 2026 Data Scientist roles, your competition will include students with projects using LLMs, RAG, graph neural networks, and generative AI. A flashy model alone won't necessarily beat your project, but a project that includes rigorous evaluation and thoughtful engineering will stand out much more than a polished dashboard over standard components.
+If I were in your position and had 2–3 more weeks, I would not spend them on a fancier embedding model or more Streamlit pages. I would spend them building:
+A proper offline evaluation framework (Recall@K, MAP, NDCG).
+An ablation study showing the impact of each scoring component.
+Automatic tuning of the recommendation weights using the evaluation metric.
+A polished Streamlit app with explainable recommendations.
+Those four additions would strengthen your interview story far more than replacing MiniLM with a larger transformer. They give you concrete experiments, measurable results, and technical decisions you can defend under questioning. That's often what differentiates a solid data science project from one that mainly demonstrates familiarity with existing libraries.

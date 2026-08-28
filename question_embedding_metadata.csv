@@ -1,0 +1,3359 @@
+ID,Title
+2938,separate black white ball
+2571,minimum operation reduce integer
+1105,filling bookcase shelf
+1894,find student replace chalk
+1497,check array pair divisible k
+250,count univalue subtrees
+968,binary tree camera
+528,random pick weight
+2951,find peak
+1,two sum
+2,add two number
+3,longest substring without repeating character
+5,longest palindromic substring
+7,reverse integer
+9,palindrome number
+11,container water
+13,roman integer
+14,longest common prefix
+15,sum
+20,valid parenthesis
+4,median two sorted array
+26,remove duplicate sorted array
+2859,sum value index k set bit
+34,find first last position element sorted array
+48,rotate image
+53,maximum subarray
+54,spiral matrix
+56,merge interval
+70,climbing stair
+72,edit distance
+88,merge sorted array
+104,maximum depth binary tree
+118,pascal triangle
+121,best time buy sell stock
+125,valid palindrome
+135,candy
+2960,count tested device test operation
+151,reverse word string
+2099,find subsequence length k largest sum
+162,find peak element
+176,second highest salary
+179,largest number
+3000,maximum area longest diagonal rectangle
+189,rotate array
+202,happy number
+204,count prime
+217,contains duplicate
+238,product array except self
+3028,ant boundary
+242,valid anagram
+279,perfect square
+300,longest increasing subsequence
+319,bulb switcher
+3146,permutation difference two string
+343,integer break
+507,perfect number
+740,delete earn
+2855,minimum right shift sort array
+509,fibonacci number
+1636,sort array increasing frequency
+169,majority element
+198,house robber
+206,reverse linked list
+455,assign cooky
+66,plus one
+852,peak index mountain array
+12,integer roman
+496,next greater element
+345,reverse vowel string
+322,coin change
+485,max consecutive one
+400,nth digit
+739,daily temperature
+62,unique path
+875,koko eating banana
+215,kth largest element array
+1823,find winner circular game
+214,shortest palindrome
+542,matrix
+185,department top three salary
+1518,water bottle
+1512,number good pair
+962,maximum width ramp
+197,rising temperature
+876,middle linked list
+1742,maximum number ball box
+17,letter combination phone number
+219,contains duplicate ii
+2684,maximum number move grid
+389,find difference
+3345,smallest divisible digit product
+3348,smallest divisible digit product ii
+8,string integer atoi
+35,search insert position
+438,find anagram string
+1312,minimum insertion step make string palindrome
+136,single number
+344,reverse string
+387,first unique character string
+283,move zero
+200,number island
+10,regular expression matching
+22,generate parenthesis
+131,palindrome partitioning
+2493,divide node maximum number group
+1661,average time process per machine
+19,remove nth node end list
+1143,longest common subsequence
+177,nth highest salary
+349,intersection two array
+190,reverse bit
+108,convert sorted array binary search tree
+409,longest palindrome
+141,linked list cycle
+1903,largest odd number string
+451,sort character frequency
+181,employee earning manager
+2215,find difference two array
+103,binary tree zigzag level order traversal
+516,longest palindromic subsequence
+541,reverse string ii
+796,rotate string
+122,best time buy sell stock ii
+402,remove k digit
+42,trapping rain water
+2235,add two integer
+18,sum
+525,contiguous array
+32,longest valid parenthesis
+3432,count partition even sum difference
+907,sum subarray minimum
+912,sort array
+79,word search
+3779,minimum number operation distinct element
+50,powx n
+81,search rotated sorted array ii
+178,rank score
+396,rotate function
+560,subarray sum equal k
+724,find pivot index
+977,square sorted array
+199,binary tree right side view
+51,nqueens
+21,merge two sorted list
+670,maximum swap
+1148,article view
+31,next permutation
+100,tree
+33,search rotated sorted array
+2011,final value variable performing operation
+2422,merge operation turn array palindrome
+1234,replace substring balanced string
+80,remove duplicate sorted array ii
+735,asteroid collision
+1654,minimum jump reach home
+134,gas station
+321,create maximum number
+49,group anagram
+3819,rotate non negative element
+2050,parallel course iii
+1683,invalid tweet
+2887,fill missing data
+1359,count valid pickup delivery option
+289,game life
+1694,reformat phone number
+394,decode string
+2964,number divisible triplet sum
+25,reverse node kgroup
+27,remove element
+40,combination sum ii
+45,jump game ii
+55,jump game
+69,sqrtx
+74,search matrix
+75,sort color
+76,minimum window substring
+83,remove duplicate sorted list
+84,largest rectangle histogram
+91,decode way
+93,restore ip address
+102,binary tree level order traversal
+105,construct binary tree preorder inorder traversal
+127,word ladder
+128,longest consecutive sequence
+130,surrounded region
+146,lru cache
+152,maximum product subarray
+155,min stack
+167,two sum ii input array sorted
+173,binary search tree iterator
+195,tenth line
+207,course schedule
+208,implement trie prefix tree
+227,basic calculator ii
+236,lowest common ancestor binary tree
+237,delete node linked list
+239,sliding window maximum
+253,meeting room ii
+258,add digit
+268,missing number
+292,nim game
+347,top k frequent element
+417,pacific atlantic water flow
+424,longest repeating character replacement
+540,single element sorted array
+547,number province
+556,next greater element iii
+567,permutation string
+584,find customer referee
+703,kth largest element stream
+793,preimage size factorial zero function
+795,number subarrays bounded maximum
+864,shortest path get key
+904,fruit basket
+908,smallest range
+910,smallest range ii
+993,cousin binary tree
+994,rotting orange
+1190,reverse substring pair parenthesis
+1916,count way build room ant colony
+1268,search suggestion system
+1581,customer visited make transaction
+1863,sum subset xor total
+2055,plate candle
+2143,choose number two array range
+2328,number increasing path grid
+2385,amount time binary tree infected
+2406,divide interval minimum number group
+2429,minimize xor
+2704,
+2892,minimizing array replacing pair product
+2962,count subarrays max element appears least k time
+3173,bitwise adjacent element
+2134,minimum swap group together ii
+2895,minimum processing time
+2506,count pair similar string
+224,basic calculator
+307,range sum query mutable
+638,shopping offer
+692,top k frequent word
+3046,split array
+329,longest increasing path matrix
+355,design twitter
+1293,shortest path grid obstacle elimination
+2536,increment submatrices one
+761,special binary string
+1004,max consecutive one iii
+222,count complete tree node
+3636,threshold majority query
+669,trim binary search tree
+468,validate ip address
+2275,largest combination bitwise greater zero
+545,boundary binary tree
+3528,unit conversion
+339,nested list weight sum
+1507,reformat date
+1963,minimum number swap make string balanced
+3736,minimum move equal array element iii
+2291,maximum profit trading stock
+338,counting bit
+392,subsequence
+475,heater
+332,reconstruct itinerary
+124,binary tree maximum path sum
+67,add binary
+1482,minimum number day make bouquet
+983,minimum cost ticket
+59,spiral matrix ii
+341,flatten nested list iterator
+1326,minimum number tap open water garden
+3463,check digit equal string operation ii
+413,arithmetic slice
+1106,parsing boolean expression
+3076,shortest uncommon substring array
+362,design hit counter
+380,insert delete getrandom
+381,insert delete getrandom duplicate allowed
+443,string compression
+736,parse lisp expression
+465,optimal account balancing
+1011,capacity ship package within day
+120,triangle
+3178,find child ball k second
+2734,lexicographically smallest string substring operation
+63,unique path ii
+1283,find smallest divisor given threshold
+1200,minimum absolute difference
+713,subarray product less k
+844,backspace string compare
+1921,eliminate maximum number monster
+46,permutation
+726,number atom
+412,fizz buzz
+1048,longest string chain
+767,reorganize string
+1071,greatest common divisor string
+3787,find diameter endpoint tree
+1209,remove adjacent duplicate string ii
+1331,rank transform array
+3893,maximum team size overlapping interval
+23,merge k sorted list
+1058,minimize rounding error meet target
+39,combination sum
+1017,convert base
+68,text justification
+1166,design file system
+2043,simple bank system
+160,intersection two linked list
+1257,smallest common region
+212,word search ii
+220,contains duplicate iii
+221,maximal square
+251,flatten vector
+269,alien dictionary
+1235,maximum profit job scheduling
+336,palindrome pair
+348,design tictactoe
+2189,number way build house card
+385,mini parser
+1284,minimum number flip convert binary matrix zero matrix
+1298,maximum candy get box
+415,add string
+1041,robot bounded circle
+1557,minimum number vertex reach node
+1554,string differ one character
+751,ip cidr
+755,pour water
+756,pyramid transition matrix
+759,employee free time
+773,sliding puzzle
+787,cheapest flight within k stop
+981,time based keyvalue store
+1091,shortest path binary matrix
+827,making large island
+432,oone data structure
+605,place flower
+631,design excel sum formula
+721,account merge
+727,minimum window subsequence
+829,consecutive number sum
+1928,minimum cost reach destination time
+3164,find number good pair ii
+3162,find number good pair
+3224,minimum array change make difference equal
+1310,xor query subarray
+2971,find polygon largest perimeter
+961,nrepeated element size n array
+647,palindromic substring
+677,map sum pair
+741,cherry pickup
+743,network delay time
+1649,create sorted array instruction
+1665,minimum initial energy finish task
+1177,make palindrome substring
+1425,constrained subsequence sum
+1223,dice roll simulation
+1819,number different subsequence gcds
+1319,number operation make network connected
+1338,reduce array size half
+1370,increasing decreasing string
+2497,maximum star sum graph
+1192,critical connection network
+548,split array equal sum
+555,split concatenated string
+666,path sum iv
+678,valid parenthesis string
+1725,number rectangle form largest square
+1898,maximum number removable character
+2341,maximum number pair array
+24,swap node pair
+2079,watering plant
+6,zigzag conversion
+16,sum closest
+28,find index first occurrence string
+29,divide two integer
+30,substring concatenation word
+36,valid sudoku
+37,sudoku solver
+38,count say
+41,first missing positive
+43,multiply string
+44,wildcard matching
+47,permutation ii
+52,nqueens ii
+57,insert interval
+58,length last word
+60,permutation sequence
+61,rotate list
+64,minimum path sum
+65,valid number
+71,simplify path
+73,set matrix zero
+77,combination
+78,subset
+82,remove duplicate sorted list ii
+85,maximal rectangle
+86,partition list
+87,scramble string
+89,gray code
+90,subset ii
+92,reverse linked list ii
+94,binary tree inorder traversal
+95,unique binary search tree ii
+96,unique binary search tree
+97,interleaving string
+98,validate binary search tree
+99,recover binary search tree
+101,symmetric tree
+106,construct binary tree inorder postorder traversal
+107,binary tree level order traversal ii
+109,convert sorted list binary search tree
+110,balanced binary tree
+111,minimum depth binary tree
+112,path sum
+113,path sum ii
+114,flatten binary tree linked list
+115,distinct subsequence
+116,populating next right pointer node
+117,populating next right pointer node ii
+119,pascal triangle ii
+123,best time buy sell stock iii
+126,word ladder ii
+129,sum root leaf number
+132,palindrome partitioning ii
+133,clone graph
+137,single number ii
+138,copy list random pointer
+139,word break
+140,word break ii
+142,linked list cycle ii
+143,reorder list
+144,binary tree preorder traversal
+145,binary tree postorder traversal
+148,sort list
+149,max point line
+150,evaluate reverse polish notation
+153,find minimum rotated sorted array
+154,find minimum rotated sorted array ii
+159,longest substring two distinct character
+164,maximum gap
+165,compare version number
+166,fraction recurring decimal
+168,excel sheet column title
+171,excel sheet column number
+172,factorial trailing zero
+174,dungeon game
+175,combine two table
+180,consecutive number
+182,duplicate email
+183,customer never order
+184,department highest salary
+186,reverse word string ii
+187,repeated dna sequence
+188,best time buy sell stock iv
+191,number bit
+193,valid phone number
+196,delete duplicate email
+201,bitwise number range
+203,remove linked list element
+205,isomorphic string
+209,minimum size subarray sum
+210,course schedule ii
+211,design add search word data structure
+213,house robber ii
+216,combination sum iii
+218,skyline problem
+225,implement stack using queue
+226,invert binary tree
+228,summary range
+229,majority element ii
+230,kth smallest element bst
+231,power two
+232,implement queue using stack
+233,number digit one
+234,palindrome linked list
+235,lowest common ancestor binary search tree
+240,search matrix ii
+241,different way add parenthesis
+243,shortest word distance
+252,meeting room
+257,binary tree path
+260,single number iii
+261,graph valid tree
+262,trip user
+263,ugly number
+264,ugly number ii
+271,encode decode string
+272,closest binary search tree value ii
+273,integer english word
+274,hindex
+277,find celebrity
+278,first bad version
+286,wall gate
+287,find duplicate number
+290,word pattern
+295,find median data stream
+296,best meeting point
+297,serialize deserialize binary tree
+299,bull cow
+301,remove invalid parenthesis
+303,range sum query immutable
+304,range sum query immutable
+309,best time buy sell stock cooldown
+310,minimum height tree
+312,burst balloon
+314,binary tree vertical order traversal
+315,count smaller number self
+316,remove duplicate letter
+317,shortest distance building
+318,maximum product word length
+323,number connected component undirected graph
+324,wiggle sort ii
+325,maximum size subarray sum equal k
+326,power three
+327,count range sum
+328,odd even linked list
+330,patching array
+334,increasing triplet subsequence
+337,house robber iii
+340,longest substring k distinct character
+342,power four
+346,moving average data stream
+350,intersection two array ii
+354,russian doll envelope
+359,logger rate limiter
+366,find leaf binary tree
+367,valid perfect square
+368,largest divisible subset
+369,plus one linked list
+371,sum two integer
+372,super pow
+373,find k pair smallest sum
+374,guess number higher lower
+377,combination sum iv
+378,kth smallest element sorted matrix
+383,ransom note
+384,shuffle array
+386,lexicographical number
+388,longest absolute file path
+390,elimination game
+395,longest substring least k repeating character
+398,random pick index
+399,evaluate division
+403,frog jump
+404,sum left leaf
+405,convert number hexadecimal
+406,queue reconstruction height
+407,trapping rain water ii
+408,valid word abbreviation
+410,split array largest sum
+414,third maximum number
+416,partition equal subset sum
+419,battleship board
+420,strong password checker
+421,maximum xor two number array
+433,minimum genetic mutation
+435,nonoverlapping interval
+436,find right interval
+437,path sum iii
+441,arranging coin
+442,find duplicate array
+445,add two number ii
+446,arithmetic slice ii subsequence
+448,find number disappeared array
+449,serialize deserialize bst
+450,delete node bst
+452,minimum number arrow burst balloon
+453,minimum move equal array element
+454,sum ii
+456,pattern
+457,circular array loop
+459,repeated substring pattern
+460,lfu cache
+461,hamming distance
+462,minimum move equal array element ii
+463,island perimeter
+464,win
+472,concatenated word
+480,sliding window median
+481,magical string
+486,predict winner
+493,reverse pair
+494,target sum
+498,diagonal traverse
+500,keyboard row
+502,ipo
+503,next greater element ii
+504,base
+506,relative rank
+508,frequent subtree sum
+2036,maximum alternating subarray sum
+513,find bottom left tree value
+515,find largest value tree row
+517,super washing machine
+518,coin change ii
+523,continuous subarray sum
+526,beautiful arrangement
+1721,swapping node linked list
+529,minesweeper
+532,kdiff pair array
+535,encode decode tinyurl
+536,construct binary tree string
+537,complex number multiplication
+538,convert bst greater tree
+539,minimum time difference
+543,diameter binary tree
+553,optimal division
+554,brick wall
+557,reverse word string iii
+561,array partition
+564,find closest palindrome
+570,manager least direct report
+572,subtree another tree
+577,employee bonus
+579,find cumulative salary employee
+581,shortest unsorted continuous subarray
+582,kill process
+583,delete operation two string
+585,investment
+587,erect fence
+588,design inmemory file system
+594,longest harmonious subsequence
+595,big country
+601,human traffic stadium
+602,friend request ii friend
+606,construct string binary tree
+607,sale person
+610,triangle judgement
+611,valid triangle number
+617,merge two binary tree
+620,boring movie
+621,task scheduler
+626,exchange seat
+627,swap sex employee
+628,maximum product three number
+630,course schedule iii
+632,smallest range covering element k list
+633,sum square number
+636,exclusive time function
+640,solve equation
+642,design search autocomplete system
+643,maximum average subarray
+645,set mismatch
+646,maximum length pair chain
+648,replace word
+649,dota senate
+650,key keyboard
+652,find duplicate subtrees
+653,two sum iv input bst
+655,print binary tree
+658,find k closest element
+661,image smoother
+662,maximum width binary tree
+663,equal tree partition
+664,strange printer
+673,number longest increasing subsequence
+675,cut tree golf event
+680,valid palindrome ii
+682,baseball game
+684,redundant connection
+686,repeated string match
+694,number distinct island
+695,max area island
+696,count binary substring
+698,partition k equal sum subset
+711,number distinct island ii
+712,minimum ascii delete sum two string
+714,best time buy sell stock transaction fee
+715,range module
+716,max stack
+718,maximum length repeated subarray
+719,find kth smallest pair distance
+720,longest word dictionary
+725,split linked list part
+729,calendar
+730,count different palindromic subsequence
+731,calendar ii
+733,flood fill
+738,monotone increasing digit
+742,closest leaf binary tree
+744,find smallest letter greater target
+746,min cost climbing stair
+752,open lock
+754,reach number
+426,convert binary search tree sorted doubly linked list
+429,nary tree level order traversal
+428,serialize deserialize nary tree
+430,flatten multilevel doubly linked list
+762,prime number set bit binary representation
+763,partition label
+427,construct quad tree
+771,jewel stone
+700,search binary search tree
+701,insert binary search tree
+772,basic calculator iii
+775,global local inversion
+776,split bst
+704,binary search
+778,swim rising water
+779,kth symbol grammar
+780,reaching point
+781,rabbit forest
+784,letter case permutation
+785,graph bipartite
+788,rotated digit
+790,domino tromino tiling
+791,custom sort string
+792,number matching subsequence
+797,path source target
+705,design hashset
+706,design hashmap
+801,minimum swap make sequence increasing
+802,find eventual safe state
+812,largest triangle area
+814,binary tree pruning
+815,bus route
+817,linked list component
+818,race car
+819,common word
+707,design linked list
+826,profit assigning work
+828,count unique character substring given string
+622,design circular queue
+832,flipping image
+834,sum distance tree
+489,robot room cleaner
+836,rectangle overlap
+839,similar string group
+841,key room
+842,split array fibonacci sequence
+843,guess word
+845,longest mountain array
+846,hand straight
+847,shortest path visiting node
+849,maximize distance closest person
+851,loud rich
+853,car fleet
+857,minimum cost hire k worker
+860,lemonade change
+862,shortest subarray sum least k
+863,node distance k binary tree
+867,transpose matrix
+869,reordered power
+870,advantage shuffle
+871,minimum number refueling stop
+872,leafsimilar tree
+874,walking robot simulation
+878,nth magical number
+879,profitable scheme
+880,decoded string index
+881,boat save people
+885,spiral matrix iii
+887,super egg drop
+888,fair candy swap
+889,construct binary tree preorder postorder traversal
+890,find replace pattern
+894,possible full binary tree
+895,maximum frequency stack
+896,monotonic array
+897,increasing order search tree
+899,orderly queue
+901,online stock span
+902,number n given digit set
+905,sort array parity
+909,snake ladder
+913,cat mouse
+918,maximum sum circular subarray
+921,minimum add make parenthesis valid
+922,sort array parity ii
+926,flip string monotone increasing
+930,binary subarrays sum
+931,minimum falling path sum
+932,beautiful array
+933,number recent call
+934,shortest bridge
+935,knight dialer
+937,reorder data log file
+938,range sum bst
+941,valid mountain array
+945,minimum increment make array unique
+946,validate stack sequence
+947,stone removed row column
+950,reveal card increasing order
+951,flip equivalent binary tree
+953,verifying alien dictionary
+957,prison cell n day
+958,check completeness binary tree
+959,region cut slash
+973,k closest point origin
+974,subarray sum divisible k
+976,largest perimeter triangle
+979,distribute coin binary tree
+980,unique path iii
+986,interval list intersection
+987,vertical order traversal binary tree
+992,subarrays k different integer
+995,minimum number k consecutive bit flip
+997,find town judge
+1000,minimum cost merge stone
+1002,find common character
+1008,construct binary search tree preorder traversal
+1010,pair song total duration divisible
+1060,missing element sorted array
+1062,longest repeating substring
+1067,digit count range
+1019,next greater node linked list
+1020,number enclave
+1086,high five
+1065,index pair string
+1021,remove outermost parenthesis
+1022,sum root leaf binary number
+1085,sum digit minimum number
+1099,two sum less k
+1100,find klength substring repeated character
+1025,divisor game
+1027,longest arithmetic subsequence
+1118,number day month
+1119,remove vowel string
+1134,armstrong number
+1120,maximum average subtree
+1026,maximum difference node ancestor
+1028,recover tree preorder traversal
+1029,two city scheduling
+1032,stream character
+1133,largest unique number
+1102,path maximum minimum value
+1135,connecting city minimum cost
+1035,uncrossed line
+1152,analyze user website visit pattern
+1039,minimum score triangulation polygon
+1160,find word formed character
+1038,binary search tree greater sum tree
+1161,maximum level sum binary tree
+1162,far land possible
+1043,partition array maximum sum
+1044,longest duplicate substring
+1167,minimum cost connect stick
+1046,last stone weight
+1047,remove adjacent duplicate string
+1163,last substring lexicographical order
+1045,customer bought product
+1050,actor director cooperated least three time
+1051,height checker
+1052,grumpy bookstore owner
+1054,distant barcodes
+1197,minimum knight move
+1074,number submatrices sum target
+1214,two sum bsts
+1068,product sale analysis
+1069,product sale analysis ii
+1070,product sale analysis iii
+1080,insufficient node root leaf path
+1081,smallest subsequence distinct character
+1075,project employee
+1229,meeting scheduler
+1089,duplicate zero
+1092,shortest common supersequence
+1082,sale analysis
+1083,sale analysis ii
+1084,sale analysis iii
+1244,design leaderboard
+511,game play analysis
+550,game play analysis iv
+1094,car pooling
+1095,find mountain array
+1108,defanging ip address
+1109,corporate flight booking
+1110,delete node return forest
+1259,handshake dont cross
+1122,relative sort array
+1123,lowest common ancestor deepest leaf
+1287,element appearing sorted array
+1288,remove covered interval
+1128,number equivalent domino pair
+1129,shortest path alternating color
+1299,replace element greatest element right side
+1137,nth tribonacci number
+1140,stone game ii
+1315,sum node evenvalued grandparent
+1141,user activity past day
+1146,snapshot array
+1329,sort matrix diagonally
+1302,deepest leaf sum
+1155,number dice roll target sum
+1171,remove zero sum consecutive node linked list
+1169,invalid transaction
+1360,number day two date
+1362,closest divisor
+1363,largest multiple three
+1164,product price given date
+1175,prime arrangement
+1176,diet plan performance
+1382,balance binary search tree
+1186,maximum subarray sum one deletion
+1174,immediate food delivery ii
+1550,three consecutive odds
+1954,minimum garden perimeter collect enough apple
+1483,kth ancestor tree node
+1179,reformat department table
+2139,minimum move reach target score
+1405,longest happy string
+1944,number visible people queue
+1193,monthly transaction
+1207,unique number occurrence
+1514,path maximum probability
+1204,last person fit bus
+1219,path maximum gold
+1211,query quality percentage
+1232,check straight line
+1233,remove subfolders filesystem
+2273,find resultant array removing anagram
+1225,report contiguous date
+1429,first unique number
+1248,count number nice subarrays
+1249,minimum remove make valid parenthesis
+1254,number closed island
+1255,maximum score word formed letter
+1260,shift grid
+1251,average selling price
+1275,find winner tic tac toe game
+1282,group people given group size belong
+1290,convert binary number linked list integer
+1292,maximum side length square sum less equal threshold
+1280,student examination
+2305,fair distribution cooky
+1295,find number even number digit
+1304,find n unique integer sum zero
+1305,element two binary search tree
+1311,get watched video friend
+1303,find team size
+1342,number step reduce number zero
+1344,angle hand clock
+1345,jump game iv
+1323,maximum number
+1325,delete leaf given value
+1321,restaurant growth
+1332,remove palindromic subsequence
+1334,find city smallest number neighbor threshold distance
+1335,minimum difficulty job schedule
+1356,sort integer number bit
+1358,number substring containing three character
+1327,list product ordered period
+1337,k weakest row matrix
+1339,maximum product splitted binary tree
+1346,check n double exist
+1347,minimum number step make two string anagram
+1372,longest zigzag path binary tree
+1373,maximum sum bst binary tree
+1351,count negative number sorted matrix
+1352,product last k number
+1353,maximum number event attended
+1341,movie rating
+1350,student invalid department
+1365,many number smaller current number
+1367,linked list binary tree
+1376,time needed inform employee
+1381,design stack increment operation
+1379,find corresponding node binary tree clone tree
+1389,create target array given order
+1392,longest happy prefix
+1378,replace employee id unique identifier
+1395,count number team
+1396,design underground system
+1404,number step reduce number binary representation one
+1408,string matching array
+1409,query permutation key
+1431,kid greatest number candy
+1422,maximum score splitting string
+1423,maximum point obtain card
+1424,diagonal traverse ii
+1448,count good node binary tree
+1436,destination city
+1438,longest continuous subarray absolute diff less equal limit
+1421,npv query
+1463,cherry pickup ii
+1456,maximum number vowel substring given length
+1457,pseudopalindromic path binary tree
+1458,max dot product two subsequence
+1478,allocate mailbox
+1464,maximum product two element array
+1466,reorder route make path lead city zero
+1470,shuffle array
+1472,design browser history
+1492,kth factor n
+1493,longest subarray deleting one element
+1480,running sum array
+1481,least number unique integer k removal
+1489,find critical pseudocritical edge minimum spanning tree
+1509,minimum difference largest smallest value three move
+1496,path crossing
+1498,number subsequence satisfy given sum condition
+1479,sale day week
+1485,clone binary tree random pointer
+1502,make arithmetic progression sequence
+1523,count odd number interval range
+1526,minimum number increment subarrays form target array
+1490,clone nary tree
+1531,string compression ii
+1495,friendly movie streamed last month
+1520,maximum number nonoverlapping substring
+1539,kth missing positive number
+1529,minimum suffix flip
+1511,customer order frequency
+1534,count good triplet
+1558,minimum number function call make target array
+1544,make string great
+1545,find kth bit nth binary string
+1547,minimum cost cut stick
+1533,find index large integer
+1552,magnetic force two ball
+1572,matrix diagonal sum
+1574,shortest subarray removed make array sorted
+1561,maximum number coin get
+1567,maximum length subarray positive product
+1588,sum odd length subarrays
+1590,make sum divisible p
+1584,min cost connect point
+1603,design parking system
+1570,dot product two sparse vector
+1571,warehouse manager
+1598,crawler log folder
+1601,maximum number achievable transfer request
+1621,number set k nonoverlapping line segment
+1608,special array x element greater equal x
+1597,build binary expression tree infix expression
+1614,maximum nesting depth parenthesis
+1637,widest vertical area two point containing point
+1631,path minimum effort
+1652,defuse bomb
+1613,find missing id
+1642,furthest building reach
+1623,valid triplet represent country
+1668,maximum repeating substring
+1669,merge linked list
+1671,minimum number removal make mountain array
+1670,design front middle back queue
+1628,design expression tree evaluate function
+1646,get maximum generated array
+1647,minimum deletion make character frequency unique
+1634,add two polynomial represented linked list
+1658,minimum operation reduce x zero
+1657,determine two string close
+1662,check two string array equivalent
+1685,sum absolute difference sorted array
+1650,lowest common ancestor binary tree iii
+1672,richest customer wealth
+1679,max number ksum pair
+1680,concatenation consecutive binary number
+1700,number student unable eat lunch
+1701,average waiting time
+1688,count match tournament
+1689,partitioning minimum number decibinary number
+1695,maximum erasure value
+1676,lowest common ancestor binary tree iv
+1716,calculate money leetcode bank
+1717,maximum score removing substring
+1718,construct lexicographically largest valid sequence
+1723,find minimum time finish job
+1710,maximum unit truck
+1732,find highest altitude
+1734,decode xored permutation
+1735,count way make array product
+1699,number call two person
+1750,minimum length string deleting similar end
+1751,maximum number event attended ii
+1764,form array concatenating subarrays another array
+1752,check array sorted rotated
+1731,number employee report employee
+1740,find distance binary tree
+1760,minimum limit ball bag
+1761,minimum degree connected trio graph
+1779,find nearest point x coordinate
+1781,sum beauty substring
+1782,count pair node
+1741,find total time spent employee
+1768,merge string alternately
+1769,minimum number operation move ball box
+1773,count item matching rule
+1757,recyclable low fat product
+1762,building ocean view
+1790,check one string swap make string equal
+1791,find center star graph
+1792,maximum average pas ratio
+1772,sort feature popularity
+1777,product price store
+1783,grand slam title
+1788,maximize beauty garden
+1795,rearrange product table
+1846,maximum element decreasing rearranging
+1847,closest room
+1809,adfree session
+1832,check sentence pangram
+1833,maximum ice cream bar
+1834,singlethreaded cpu
+1811,find interview candidate
+1838,frequency frequent element
+1859,sorting sentence
+1854,maximum population year
+1876,substring size three distinct character
+1842,next palindrome using digit
+1852,distinct number subarray
+1882,process task using server
+1886,determine whether matrix obtained rotation
+1889,minimum space wasted packaging
+1909,remove one element make array strictly increasing
+1910,remove occurrence substring
+1905,count sub island
+1926,nearest exit entrance maze
+1901,find peak element ii
+1920,build array permutation
+1922,count good number
+1923,longest common subpath
+1942,number smallest unoccupied chair
+2297,jump game viii
+1929,concatenation array
+1930,unique length palindromic subsequence
+2307,check contradiction equation
+1950,maximum minimum value subarrays
+1958,check move legal
+1955,count number special subsequence
+1934,confirmation rate
+1976,number way arrive destination
+1969,minimum nonzero product array element
+1981,minimize difference target chosen element
+1984,minimum difference highest lowest k score
+1986,minimum number work session finish task
+2006,count number pair absolute difference k
+1971,find path exists graph
+1998,gcd sort array
+2000,reverse prefix word
+2022,convert array array
+2012,sum beauty array
+2013,detect square
+2037,minimum number move seat everyone
+2028,find missing observation
+2035,partition array two array minimize sum difference
+2053,kth distinct string array
+2058,find minimum maximum number node critical point
+2064,minimized maximum product distributed store
+2073,time needed buy ticket
+2075,decode slanted ciphertext
+2100,find good day rob bank
+2101,detonate maximum bomb
+2102,sequentially ordinal rank tracker
+2092,find people secret
+2095,delete middle node linked list
+2096,stepbystep direction binary tree node another
+2115,find possible recipe given supply
+2116,check parenthesis string valid
+2104,sum subarray range
+2109,adding space string
+2110,number smooth descent period stock
+2111,minimum operation make array kincreasing
+2130,maximum twin sum linked list
+2125,number laser beam bank
+2127,maximum employee invited meeting
+2145,count hidden sequence
+2123,minimum operation remove adjacent one matrix
+2140,solving question brainpower
+2160,minimum sum four digit number splitting digit
+2161,partition array according given pivot
+2149,rearrange array element sign
+2181,merge node zero
+2195,append k integer minimal sum
+2196,create binary tree description
+2197,replace noncoprime number array
+2207,maximize number subsequence string
+2173,longest winning streak
+2220,minimum bit flip convert number
+2221,find triangular sum array
+2222,number way select building
+2223,sum score built string
+2250,count number rectangle containing point
+2259,remove digit number maximize result
+2261,k divisible element subarrays
+2262,total appeal string
+2256,minimum average difference
+2258,escape spreading fire
+2266,count number text
+2239,find closest number zero
+2214,minimum health beat game
+2274,maximum consecutive floor without special floor
+2270,number way split array
+2272,substring largest variance
+2244,minimum round complete task
+2246,longest path different adjacent character
+2279,maximum bag full capacity rock
+2281,sum total strength wizard
+2219,maximum sum score array
+2228,user two purchase within seven day
+2287,rearrange character make target string
+2288,apply discount price
+2238,number time driver passenger
+2285,maximum total importance road
+2236,root equal sum child
+2294,partition array maximum difference k
+2295,replace element array
+2296,design text editor
+2300,successful pair spell potion
+2322,minimum score removal tree
+2316,count unreachable pair node undirected graph
+2268,minimum number keypresses
+2325,decode message
+2336,smallest number infinite set
+2337,move piece obtain string
+2333,minimum sum squared difference
+2352,equal row column pair
+2353,design food rating system
+2292,product three order two consecutive year
+2347,best poker hand
+2357,make array zero subtracting equal amount
+2360,longest cycle graph
+2364,count number bad pair
+2398,maximum number robot within budget
+2324,product sale analysis iv
+2329,product sale analysis v
+2375,construct smallest number di string
+2323,find minimum time finish job ii
+2386,find ksum array
+2380,time needed rearrange binary string
+2330,valid palindrome iv
+2390,removing star string
+2391,minimum amount time collect garbage
+2342,max sum pair equal sum digit
+2340,minimum adjacent swap make valid array
+2401,longest nice subarray
+2402,meeting room iii
+2396,strictly palindromic number
+2405,optimal partition string
+2355,maximum number book take
+2413,smallest even multiple
+2415,reverse odd level binary tree
+2356,number unique subject taught teacher
+2410,maximum matching player trainer
+2411,smallest subarrays maximum bitwise
+2412,minimum money required transaction
+2434,using robot print lexicographically smallest string
+2441,largest positive integer exists negative
+2444,count subarrays fixed bound
+2439,minimize maximum array
+2394,employee deduction
+2449,minimum number operation make array similar
+2443,sum number reverse
+2460,apply operation array
+2461,maximum sum distinct subarrays length k
+2408,design sql
+2469,convert temperature
+2471,minimum number operation sort binary tree level
+2465,number distinct average
+2468,split message based limit
+2485,find pivot integer
+2486,append character string make subsequence
+2487,remove node linked list
+2501,longest square streak array
+2502,design memory allocator
+2482,difference one zero row column
+2474,customer strictly increasing purchase
+2534,time taken cross door
+2527,find xorbeauty array
+2535,difference element sum digit sum array
+2537,count number good subarrays
+2542,maximum subsequence score
+2583,kth largest sum binary tree
+2578,split minimum sum
+2519,count number kbig index
+2606,find substring maximum cost
+2641,cousin binary tree ii
+2551,put marble bag
+2558,take gift richest pile
+2597,number beautiful subset
+2563,count number fair pair
+2575,find divisibility array string
+2616,minimize maximum difference pair
+2620,counter
+2621,sleep
+2619,array prototype last
+2643,row maximum one
+2638,count number kfree subset
+2629,function composition
+2634,filter element array
+2635,apply transform element array
+2653,sliding subarray beauty
+2707,extra character string
+2706,buy two chocolate
+2622,cache time limit
+2657,find prefix common array two array
+2665,counter ii
+2666,allow one function call
+2694,event emitter
+2742,painting wall
+2667,create hello world function
+2769,find maximum achievable number
+2697,lexicographically smallest palindrome
+2703,return length argument passed
+2747,count zero request server
+2766,relocate marble
+2799,count complete subarrays array
+2762,continuous subarrays
+2816,double number represented linked list
+2798,number employee met target
+2781,length longest valid substring
+2824,count pair whose sum less target
+2801,count stepping number range
+2841,maximum sum almost unique subarray
+2828,check string acronym word
+2830,maximize profit salesman
+2782,number unique category
+2825,make string subsequence using cyclic increment
+2864,maximum odd binary number
+2877,create dataframe list
+2879,display first three row
+2832,maximal range element maximum
+2870,minimum number operation make array empty
+2916,subarrays distinct element sum square ii
+2898,maximum linear stock score
+2917,find kor array
+2926,maximum balanced subsequence sum
+2942,find word containing character
+2928,distribute candy among child
+2929,distribute candy among child ii
+2937,make three string equal
+2949,count beautiful substring ii
+2947,count beautiful substring
+2945,find maximum nondecreasing array length
+2927,distribute candy among child iii
+2973,find number coin place tree node
+2958,length longest subarray k frequency
+2965,find missing repeated value
+2952,minimum number coin added
+2966,divide array array max difference
+3005,count element maximum frequency
+2997,minimum number operation make array xor equal k
+2979,expensive item bought
+3014,minimum number push type word
+3016,minimum number push type word ii
+3020,find maximum number element subset
+3032,count number unique digit ii
+3108,minimum cost walk weighted graph
+3075,maximize happiness selected child
+3081,replace question mark string minimize value
+3134,find median uniqueness array
+3092,frequent id
+3110,score string
+3113,find number subarrays boundary element maximum
+3133,minimum array end
+3139,minimum cost equalize array
+3121,count number special character ii
+3120,count number special character
+3104,find longest selfcontained substring
+3154,find number way reach kth stair
+3152,special array ii
+3151,special array
+3211,generate binary string without adjacent zero
+3194,minimum average smallest largest element
+3202,find maximum length valid subsequence ii
+3199,count triplet even xor set bit
+3215,count triplet even xor set bit ii
+1484,group sold product date
+978,longest turbulent subarray
+2191,sort jumbled number
+1789,primary department employee
+2976,minimum cost convert string
+2685,count number complete component
+1653,minimum deletion make string balanced
+1216,valid palindrome iii
+1460,make two array equal reversing subarrays
+313,super ugly number
+1508,range sum sorted subarray sum
+1851,minimum interval include query
+2365,task scheduler ii
+2977,minimum cost convert string ii
+1221,split string balanced string
+840,magic square grid
+2094,finding digit even number
+2074,reverse node even length group
+1568,minimum number day disconnect island
+3235,check rectangle corner reachable
+3136,valid word
+2477,minimum fuel cost report capital
+365,water jug problem
+1633,percentage user attended contest
+624,maximum distance array
+599,minimum index sum two list
+2915,length longest subsequence sum target
+1937,maximum number point cost
+1606,find server handled number request
+3191,minimum operation make binary array element equal one
+590,nary tree postorder traversal
+697,degree array
+989,add arrayform integer
+2645,minimum addition make valid string
+1410,html entity parser
+2334,subarray element greater varying threshold
+1261,find element contaminated binary tree
+576,boundary path
+3217,delete node linked list present array
+1172,dinner plate stack
+3281,maximize score number range
+2807,insert greatest common divisor linked list
+3274,check two chessboard square color
+674,longest continuous increasing subsequence
+794,valid tictactoe state
+3105,longest strictly increasing strictly decreasing subarray
+2602,minimum operation make array element equal
+2049,count node highest score
+2419,longest subarray maximum bitwise
+1371,find longest substring containing vowel even count
+3193,count number inversion
+884,uncommon word two sentence
+170,two sum iii data structure design
+2724,sort
+1131,maximum absolute value expression
+1525,number good way split string
+2290,minimum obstacle removal reach corner
+2192,ancestor node directed acyclic graph
+813,largest sum average
+1625,lexicographically smallest string applying operation
+2227,encrypt decrypt string
+2751,robot collision
+3043,find length longest common prefix
+2416,sum prefix score string
+3163,string compression iii
+641,design circular deque
+619,biggest single number
+774,minimize max distance gas station
+2491,divide player team equal skill
+1813,sentence similarity iii
+3019,number changing key
+2696,minimum string length removing substring
+1541,minimum insertion balance parenthesis string
+291,word pattern ii
+1049,last stone weight ii
+866,prime palindrome
+3317,find number possible way event
+490,maze
+710,random pick blacklist
+2530,maximal score applying k operation
+967,number consecutive difference
+358,rearrange string k distance apart
+2044,count number maximum bitwiseor subset
+919,complete binary tree inserter
+1593,split string max number unique substring
+1403,minimum subsequence nonincreasing order
+440,kth smallest lexicographical order
+2418,sort people
+1972,first last call day
+3326,minimum division operation make array non decreasing
+1817,finding user active minute
+1549,recent order product
+1277,count square submatrices one
+635,design log storage system
+3159,find occurrence element array
+2017,grid game
+2663,lexicographically smallest beautiful string
+3011,find array sorted
+2601,prime subtraction operation
+2070,beautiful item query
+942,di string match
+1343,number subarrays size k average greater equal threshold
+3264,final array state k multiplication operation
+2414,length longest alphabetical continuous substring
+1780,check number sum power three
+3349,adjacent increasing subarrays detection
+505,maze ii
+2516,take k character left right
+2933,highaccess employee
+1072,flip column maximum number equal row
+2889,reshape data pivot
+1975,maximum matrix sum
+1301,number path max score
+281,zigzag iterator
+1713,minimum operation make subsequence
+2163,minimum difference sum removal element
+2577,minimum time visit cell grid
+2097,valid arrangement pair
+3371,identify largest outlier array
+3369,design array statistic tracker
+3366,minimum array sum
+1596,frequently ordered product customer
+2054,two best nonoverlapping event
+1455,check word occurs prefix word sentence
+2981,find longest special substring occurs thrice
+1871,jump game vii
+2593,find score array marking element
+769,max chunk make sorted
+1139,largest bordered square
+3229,minimum operation make array equal target
+1748,sum unique element
+2872,maximum number kdivisible component
+2940,find building alice bob meet
+3077,maximum strength k disjoint subarrays
+2211,count collision road
+3386,button longest push time
+2193,minimum number move make palindrome
+1270,people report given manager
+1014,best sightseeing pair
+689,maximum sum nonoverlapping subarrays
+2466,count way build good string
+2559,count vowel string range
+2348,number zerofilled subarrays
+2381,shifting letter ii
+3396,minimum number operation make element array distinct
+3407,substring matching pattern
+2587,rearrange array maximize prefix score
+916,word subset
+2789,largest element array merge operation
+690,employee importance
+3413,maximum coin k consecutive bag
+1400,construct k palindrome string
+3223,minimum length string operation
+1517,find user valid email
+2683,neighboring bitwise xor
+1368,minimum cost make least one valid path grid
+3429,paint house iv
+1245,tree diameter
+1765,map highest peak
+2467,profitable path tree
+1267,count server communicate
+1443,minimum time collect apple tree
+1383,maximum performance team
+2948,make lexicographically smallest array swapping element
+1856,maximum subarray minproduct
+2317,maximum xor operation
+1462,course schedule iv
+2658,maximum number fish grid
+2517,maximum tastiness candy basket
+944,delete column make sorted
+3309,maximum possible number binary concatenation
+1800,maximum ascending subarray sum
+353,design snake game
+1609,even odd tree
+2772,apply operation make array element equal zero
+768,max chunk make sorted ii
+1726,tuple product
+3160,find number distinct color among ball
+2034,stock price fluctuation
+3449,maximize minimum game score
+3174,clear digit
+2656,maximum sum exactly k element
+3026,maximum good subarray sum
+3066,minimum operation exceed threshold value ii
+1036,escape large maze
+2492,minimum score path two city
+2698,find punishment number integer
+2790,maximum number group increasing length
+3455,shortest matching substring
+3459,length longest vshaped diagonal segment
+1475,final price special discount shop
+1415,kth lexicographical string happy string length n
+370,range addition
+2319,check matrix xmatrix
+728,self dividing number
+3453,separate square
+3458,select k disjoint special substring
+1031,maximum sum two nonoverlapping subarrays
+1827,minimum operation make array increasing
+3462,maximum sum k element
+3170,lexicographically minimum string removing star
+3461,check digit equal string operation
+1749,maximum absolute sum subarray
+1524,number subarrays odd sum
+898,bitwise or subarrays
+3454,separate square ii
+873,length longest fibonacci subsequence
+657,robot return origin
+1366,rank team vote
+147,insertion sort list
+737,sentence similarity ii
+2579,count total number colored cell
+1559,detect cycle grid
+2523,closest prime number range
+2379,minimum recolors get k consecutive black block
+2554,maximum number integer choose range
+609,find duplicate file system
+3356,zero array transformation ii
+2560,house robber iv
+2226,maximum candy allocated k child
+589,nary tree preorder traversal
+3364,minimum positive sum subarray
+2594,minimum time repair car
+2206,divide array equal pair
+1136,parallel course
+2956,find common element two array
+352,data stream disjoint interval
+2170,minimum operation make array alternating
+2062,count vowel substring string
+2484,count palindromic subsequence
+1439,find kth smallest sum matrix sorted row
+3169,count day without meeting
+3394,check grid cut section
+2780,minimum index valid split
+3414,maximum score nonoverlapping interval
+495,teemo attacking
+3306,count substring containing every vowel k consonant ii
+886,possible bipartition
+1262,greatest sum divisible three
+1962,remove stone minimize total
+2874,maximum value ordered triplet ii
+3230,customer purchasing behavior analysis
+1158,market analysis
+3034,number subarrays match pattern
+1848,minimum distance target element
+3483,unique digit even number
+563,binary tree tilt
+1943,describe painting
+984,string without aaa bbb
+2672,number adjacent element color
+3206,alternating group
+2426,number pair satisfying inequality
+488,zuma game
+2570,merge two array summing value
+3050,pizza topping cost analysis
+1865,finding pair certain sum
+282,expression add operator
+2338,count number ideal array
+3434,maximum frequency subarray operation
+3531,count covered building
+3392,count subarrays length three condition
+2302,count subarrays score less k
+1991,find middle index array
+401,binary watch
+2071,maximum number task assign
+838,push domino
+1007,minimum domino rotation equal row
+308,range sum query mutable
+3342,find minimum time reach last room ii
+2918,minimum equal sum two array replacing zero
+1864,minimum number swap make binary string alternating
+3335,total character string transformation
+3273,minimum amount damage dealt bob
+1931,painting grid three different color
+434,number segment string
+3355,zero array transformation
+2481,minimum cut divide circle
+3426,manhattan distance arrangement piece
+2550,count collision monkey polygon
+3424,minimum cost make array identical
+2894,divisible nondivisible sum difference
+397,integer replacement
+2815,max pair sum array
+1691,maximum height stacking cuboid
+1388,pizza n slice
+2359,find closest node given two node
+1240,tiling rectangle fewest square
+3234,count number substring dominant one
+1061,lexicographically smallest equivalent string
+3403,find lexicographically largest string box
+3388,count beautiful split array
+298,binary tree longest consecutive sequence
+2873,maximum value ordered triplet
+637,average level binary tree
+3572,maximize y‑sum picking triplet distinct x‑values
+3442,maximum difference even odd frequency
+3362,zero array transformation iii
+3445,maximum difference even odd frequency ii
+3423,maximum difference adjacent element circular array
+2032,two three
+1432,max difference get changing integer
+2016,maximum difference increasing element
+3214,year year growth rate
+3405,count number array k matching adjacent element
+892,surface area shape
+1941,check character equal number occurrence
+2200,find kdistant index array
+1893,check integer range covered
+2427,number common factor
+2040,kth smallest product two sorted array
+1198,find smallest common element row
+2265,count node equal average subtree
+2500,delete greatest value row
+2311,longest binary subsequence less equal k
+783,minimum distance bst node
+2014,longest subsequence repeated k time
+2187,minimum time complete trip
+3330,find original typed string
+3333,find original typed string ii
+3304,find kth character string game
+1763,longest nice substring
+3307,find kth character string game ii
+3598,longest common prefix adjacent string removal
+1217,minimum cost move chip position
+821,shortest distance character
+3610,minimum number prime sum target
+3439,reschedule meeting maximum free time
+305,number island ii
+1643,kth smallest instruction
+3440,reschedule meeting maximum free time ii
+858,mirror reflection
+1900,earliest latest round player compete
+2001,number pair interchangeable rectangle
+2779,maximum beauty array applying operation
+3612,process string special operation
+3201,find maximum length valid subsequence
+1667,fix name table
+924,minimize malware spread
+3456,find special substring length k
+512,game play analysis ii
+492,construct rectangle
+1957,delete character make fancy string
+1970,last day still cross
+2596,check knight tour configuration
+3507,minimum pair removal sort array
+3487,maximum unique subarray sum deletion
+1306,jump game iii
+3340,check balanced string
+2210,count hill valley array
+3480,maximize subarrays removing one conflicting pair
+2488,count subarrays median k
+2771,longest nondecreasing subarray two array
+1610,maximum number visible point
+2119,number double reversal
+3357,minimize maximum adjacent element difference
+559,maximum depth nary tree
+2561,rearranging fruit
+2106,maximum fruit harvested k step
+3638,maximum balanced shipment
+285,inorder successor bst
+3002,maximum size set removal
+3477,fruit basket ii
+1527,patient condition
+3479,fruit basket iii
+808,soup serving
+2566,maximum difference remapping digit
+3644,maximum k sort permutation
+3645,maximum total optimal activation order
+2438,range product query power
+223,rectangle area
+2787,way express integer sum power
+3639,minimum time activate string
+3605,minimum stability factor array
+3637,trionic array
+3640,trionic array ii
+3627,maximum median sum subsequence size
+3634,minimum removal balance array
+3482,analyze organization hierarchy
+837,new game
+3542,minimum operation convert element zero
+473,matchstick square
+3438,find valid pair adjacent digit string
+1394,find lucky integer array
+2735,collecting chocolate
+940,distinct subsequence ii
+1504,count submatrices one
+3195,find minimum area cover one
+3197,find minimum area cover one ii
+699,falling square
+1861,rotating box
+1639,number way form target string given dictionary
+1907,count salary category
+3446,sort matrix diagonal
+1836,remove duplicate unsorted linked list
+3021,alice bob playing flower game
+3669,balanced kfactor decomposition
+1266,minimum time visiting point
+3666,minimum operation equalize binary string
+546,remove box
+3025,find number way place people
+1297,maximum number occurrence substring
+3516,find closest person
+3260,find largest palindrome divisible k
+2749,minimum operation make integer zero
+3676,count bowl subarrays
+1317,convert integer sum two nozero integer
+2890,reshape data melt
+2327,number people aware secret
+2545,sort student kth score
+1733,minimum number people teach
+3541,find frequent vowel consonant
+966,vowel spellchecker
+1935,maximum number word type
+3408,design task manager
+929,unique email address
+1201,ugly number iii
+2114,maximum number word found sentence
+2592,maximize greatness array
+3648,minimum sensor cover grid
+2544,alternating digit sum
+2089,find target index sorting array
+3100,water bottle ii
+3297,count substring rearranged contain string
+1648,sell diminishingvalued colored ball
+1203,sort item group respecting dependency
+3168,minimum number chair waiting room
+3071,minimum operation write letter grid
+1488,avoid flood city
+825,friend appropriate age
+2320,count number way place house
+1145,binary tree coloring game
+3494,find minimum amount time brew potion
+3147,taking maximum energy mystic dungeon
+3186,maximum total damage spell casting
+3664,twoletter card game
+444,sequence reconstruction
+1881,maximum value insertion
+2598,smallest missing nonnegative integer operation
+1948,delete duplicate folder system
+3397,maximum number distinct element operation
+3720,lexicographically smallest permutation greater target
+2389,longest subsequence limited sum
+3347,maximum frequency element performing operation ii
+3346,maximum frequency element performing operation
+3715,sum perfect square ancestor
+1446,consecutive character
+491,nondecreasing subsequence
+3354,make array element equal zero
+3730,maximum calorie burnt jump
+3728,stable subarrays equal boundary interior sum
+3370,smallest number set bit
+2421,number good path
+3289,two sneaky number digitville
+3428,maximum minimum sum size k subsequence
+3733,minimum time complete delivery
+2257,count unguarded cell grid
+1578,minimum time make rope colorful
+3318,find xsum klong subarrays
+3517,smallest palindromic rearrangement
+3573,best time buy sell stock v
+3607,power grid maintenance
+2528,maximize minimum powered city
+280,wiggle sort
+2169,count operation obtain zero
+2654,minimum number operation make array element equal
+3228,maximum number operation move one end
+411,minimum unique word abbreviation
+2910,minimum number group create valid assignment
+757,set intersection size least two
+3190,find minimum operation make element divisible three
+3608,minimum time k connected component
+1015,smallest integer divisible k
+3752,lexicographically smallest negated permutation sum target
+2435,path matrix whose sum divisible k
+1776,car fleet ii
+3381,maximum subarray sum length divisible k
+1816,truncate sentence
+2141,maximum running time n computer
+1551,minimum operation make array equal
+3578,count partition maxmin difference k
+1006,clumsy factorial
+3767,maximize point choosing k task
+3243,shortest distance road addition query
+1822,sign product array
+3512,minimum operation make array sum divisible k
+2520,count digit divide number
+3577,count number computer unlocking permutation
+2562,find array concatenation value
+1018,binary prefix divisible
+1993,operation tree
+1399,count largest group
+3743,maximize cyclic partition score
+3508,implement router
+3652,best time buy sell stock using strategy
+2906,construct product matrix
+955,delete column make sorted ii
+3785,minimum swap avoid forbidden value
+3786,total sum interaction cost tree group
+3781,maximum score binary swap
+1977,number way separate number
+598,range addition ii
+256,paint house
+2483,minimum penalty shop
+1013,partition array three part equal sum
+474,one zero
+960,delete column make sorted iii
+1411,number way paint n × grid
+1390,four divisor
+1380,lucky number matrix
+3794,reverse string prefix
+311,sparse matrix multiplication
+865,smallest subtree deepest node
+1729,find follower count
+3806,maximum bitwise increment operation
+391,perfect rectangle
+1743,restore array adjacent pair
+2943,maximize area square hole grid
+2007,find original array doubled array
+1513,number substring
+483,smallest good base
+3314,construct minimum bitwise array
+3315,construct minimum bitwise array ii
+805,split array average
+2637,promise time limit
+3510,minimum pair removal sort array ii
+3814,maximum capacity within budget
+3780,maximum sum three number divisible three
+1877,minimize maximum pair sum array
+665,nondecreasing array
+1804,implement trie ii prefix tree
+3650,minimum cost path edge reversal
+3651,minimum cost path teleportation
+2513,minimize maximum two array
+1413,minimum value get positive step step sum
+2843,count symmetric integer
+2498,frog jump ii
+3010,divide array subarrays minimum cost
+3013,divide array subarrays minimum cost ii
+3484,design spreadsheet
+565,array nesting
+600,nonnegative integer without consecutive one
+3379,transformed array
+363,max sum rectangle larger k
+923,sum multiplicity
+1979,find greatest common divisor array
+3227,vowel game string
+882,reachable node subdivided graph
+1895,largest magic square
+2457,minimum addition make integer beautiful
+2383,minimum hour training win competition
+2503,maximum number point grid query
+3719,longest balanced subarray
+2858,minimum edge reversal every node reachable
+530,minimum absolute difference bst
+3721,longest balanced subarray ii
+3713,longest balanced substring
+3714,longest balanced substring ii
+1385,find distance value two array
+3796,find maximum value constrained sequence
+799,champagne tower
+804,unique morse code word
+687,longest univalue path
+2808,minimum second equalize circular array
+2860,happy student
+693,binary number alternating bit
+988,smallest string starting leaf
+586,customer placing largest number order
+476,number complement
+868,binary gap
+1461,check string contains binary code size k
+2131,longest palindrome concatenating two letter word
+990,satisfiability equality equation
+859,buddy string
+2785,sort vowel string
+1536,minimum swap arrange binary grid
+2788,split string separator
+1582,special position binary matrix
+956,tallest billboard
+527,word abbreviation
+2304,minimum path cost grid
+3521,find product recommendation pair
+569,median employee salary
+1758,minimum change make alternating binary string
+1784,check binary string one segment one
+1888,minimum number flip make binary string alternating
+1980,find unique binary string
+3864,minimum cost partition binary string
+1228,missing number arithmetic progression
+3863,minimum operation sort string
+3129,find possible stable binary array
+3795,minimum subarray length distinct sum least k
+1932,merge bsts create single bst
+3130,find possible stable binary array ii
+1009,complement base integer
+3600,maximize spanning tree stability upgrade
+3296,minimum number second make mountain height zero
+3427,sum variable length subarrays
+1622,fancy sequence
+3872,longest arithmetic sequence changing one element
+1878,get biggest three rhombus sum grid
+3867,sum gcd formed pair
+1953,maximum number week work
+1727,largest submatrix rearrangement
+2568,minimum impossible
+3567,minimum absolute difference sliding submatrix
+3552,grid teleportation traversal
+1594,maximum non negative product matrix
+1693,daily lead partner
+855,exam room
+1711,count good meal
+3546,equal sum grid partition
+3212,count submatrices equal frequency x
+1912,design movie rental system
+2946,matrix similarity cyclic shift
+2723,add two promise
+2840,check string made equal operation ii
+3474,lexicographically smallest generated string
+3418,maximum amount money robot earn
+877,stone game
+3661,maximum wall destroyed robot
+3828,final element subarray deletion
+2039,time network becomes idle
+1236,web crawler
+3069,distribute element two array
+3653,xor range multiplication query
+3655,xor range multiplication query ii
+3740,minimum distance three equal element
+2384,largest palindromic number
+3741,minimum distance three equal element ii
+2344,minimum deletion make array divisible
+3493,property graph
+3266,final array state k multiplication operation ii
+2448,minimum cost make array equal
+501,find mode binary search tree
+917,reverse letter
+2463,minimum total distance traveled
+2024,maximize confusion exam
+2515,shortest distance target string circular array
+3488,closest equal element query
+1281,subtract product sum digit integer
+3761,minimum absolute distance mirror pair
+2078,two furthest house different color
+1857,largest color value directed graph
+2452,word within two edits dictionary
+2615,sum distance
+1564,put box warehouse
+3914,minimum operation make array non decreasing
+2033,minimum operation make univalue grid
+2470,number subarrays lcm equal k
+3225,maximum score grid operation
+3857,minimum cost split one
+2661,first completely painted row column
+3920,maximize fixed point deletion
+861,score flipping matrix
+1696,jump game vi
+1206,design skiplist
+3660,jump game ix
+3629,minimum jump reach end via prime teleportation
+1914,cyclically rotating grid
+2770,maximum number jump reach last index
+1674,minimum move make array complementary
+3928,minimum cost buy apple ii
+566,reshape matrix
+3927,minimize array sum using divisible replacement
+3922,minimum flip make binary string coherent
+1494,parallel course ii
+1151,minimum swap group together
+2950,number divisible substring
+3391,design binary matrix efficient layer tracking
+3875,construct uniform parity array
+3876,construct uniform parity array ii
+1521,find value mysterious function closest target
+2278,percentage letter string
+1224,maximum equal frequency
+2202,maximize topmost element k move
+1775,equal sum array minimum number operation
+2205,number user eligible discount
+2230,user eligible discount
+244,shortest word distance ii
+708,insert sorted circular linked list
+1024,video stitching
+1828,query number point inside circle
+1087,brace expansion
+1242,web crawler multithreaded
+3053,classifying triangle length
+3022,minimize remaining element using operation
+284,peeking iterator
+996,number squareful array
+2023,number pair string concatenation equal target
+2351,first letter appear twice
+2397,maximum row covered column
+2972,count number incremovable subarrays ii
+2970,count number incremovable subarrays
+3030,find grid region average
+3040,maximum number operation score ii
+3074,apple redistribution box
+688,knight probability chessboard
+824,goat latin
+163,missing range
+3522,calculate score performing instruction
+2591,distribute money maximum child
+1213,intersection three sorted array
+157,read n character given read
+1168,optimize water distribution village
+158,read n character given read ii call multiple time
+3613,minimize maximum component cost
+820,short encoding word
+2065,maximum path quality graph
+1870,minimum speed arrive time
+2150,find lonely number array
+477,total hamming distance
+161,one edit distance
+2633,convert object json string
+1274,number ship rectangle
+2509,cycle length query tree
+3250,find count monotonic pair
+2182,construct string repeat limit
+510,inorder successor bst ii
+2002,maximum product length two palindromic subsequence
+2082,number rich customer
+2959,number possible set closing branch
+1307,verbal arithmetic puzzle
+2975,maximum square area removing fence field
+2639,find width column grid
+1644,lowest common ancestor binary tree ii
+1797,design authentication manager
+3649,number perfect pair
+2939,maximum xor product
+1747,leetflex banned account
+3072,distribute element two array ii
+3161,block placement query
+3036,number subarrays match pattern ii
+3045,count prefix suffix pair ii
+3042,count prefix suffix pair
+2117,abbreviating product range
+3495,minimum operation make array element zero
+3070,count submatrices topleft element sum less k
+2961,double modular exponentiation
+2833,furthest point origin
+3080,mark element array performing query
+3433,count mention per user
+3447,assign element group constraint
+3452,sum good number
+2060,check original string exists given two encoded string
+3004,maximum subtree color
+3068,find maximum sum node value
+1626,best team conflict
+266,palindrome permutation
+1730,shortest path get food
+676,implement magic dictionary
+723,candy crush
+749,contain virus
+856,score parenthesis
+1042,flower planting adjacent
+1104,path zigzag labelled binary tree
+1289,minimum falling path sum ii
+1130,minimum cost tree leaf value
+1387,sort integer power value
+1491,average salary excluding minimum maximum salary
+1583,count unhappy friend
+1656,design ordered stream
+1820,maximum number accepted invitation
+1911,maximum alternating subsequence sum
+2009,minimum number operation make array continuous
+2423,remove letter equalize frequency
+2574,left right sum difference
+3131,find integer added array
+593,valid square
+357,count number unique digit
+1978,employee whose manager left company
+1945,sum digit string convert
+3254,find power ksize subarrays
+2590,design todo list
+765,couple holding hand
+2490,circular sentence
+2914,minimum number change make binary string beautiful
+1829,maximum xor query
+3286,find safe walk grid
+2784,check array good
+3404,count special subsequence
+2185,counting word given prefix
+2373,largest local value matrix
+1778,shortest path hidden grid
+1079,letter tile possibility
+575,distribute candy
+1309,decrypt string alphabet integer mapping
+3208,alternating group ii
+667,beautiful arrangement ii
+848,shifting letter
+520,detect capital
+1506,find root nary tree
+747,largest number least twice others
+3375,minimum operation make array value equal k
+2179,count good triplet array
+2176,count equal divisible pair array
+2800,shortest string contains three string
+2845,count interesting subarrays
+2974,minimum number game
+2404,frequent even element
+3310,remove method project
+3341,find minimum time reach last room
+3024,type triangle
+3557,find maximum number non intersecting substring
+3547,maximum sum edge value graph
+1684,count number consistent string
+3568,minimum move clean classroom
+3582,generate tag video caption
+3443,maximum manhattan distance k change
+2138,divide string group size k
+3085,minimum deletion make string kspecial
+2081,sum kmirror number
+2231,largest number digit swap parity
+551,student attendance record
+2726,calculator method chaining
+2303,calculate amount paid tax
+2623,memoize
+1202,smallest string swap
+991,broken calculator
+3363,find maximum number fruit collected
+1698,number distinct substring string
+2264,largest samedigit number string
+679,game
+2582,pas pillow
+1300,sum mutated array closest target
+3478,choose k element maximum sum
+3222,find winning player coin game
+2395,find subarrays equal sum
+2540,minimum common value
+3035,maximum palindrome operation
+470,implement rand using rand
+3703,remove kbalanced substring
+2090,k radius subarray average
+2048,next greater numerically balanced number
+3609,minimum move reach target grid
+2648,generate fibonacci sequence
+3321,find xsum klong subarrays ii
+1611,minimum one bit operation make integer zero
+1437,check least length k place away
+766,toeplitz matrix
+717,bit bit character
+623,add one row tree
+2154,keep multiplying found value two
+3006,find beautiful index given array
+270,closest binary search tree value
+608,tree node
+552,student attendance record ii
+3583,count special triplet
+1386,cinema seat allocation
+3623,count number trapezoid
+2147,number way divide long corridor
+1925,count square sum triple
+3776,minimum move balance circular array
+2124,check appears b
+3497,analyze subscription conversion
+3469,find minimum cost remove array element
+2027,minimum move convert string
+911,online election
+925,long pressed name
+3731,find missing element
+3047,find largest area square inside two rectangle
+2716,minimize string length
+833,find replace string
+3658,gcd odd even sum
+335,self crossing
+1226,dining philosopher
+487,max consecutive one ii
+2880,select data
+3848,check digitorial permutation
+777,swap adjacent lr string
+3471,find largest almost missing integer
+3783,mirror distance integer
+596,class least student
+3464,maximize distance point square
+1722,minimize hamming distance swap operation
+1441,build array stack operation
+375,guess number higher lower ii
+2462,total cost hire k worker
+1188,design bounded blocking queue
+1111,maximum nesting depth two valid parenthesis string
+1465,maximum area piece cake horizontal vertical cut
+2876,count visited node directed graph
+3012,minimize length array using operation
+3251,find count monotonic pair ii
+2512,reward top k student
+1034,coloring border
+2146,k highest ranked item within price range
+2159,order two column independently
+965,univalued binary tree
+2393,count strictly increasing subarrays
+1997,first day room
+1530,number good leaf node pair
+939,minimum area rectangle
+3498,reverse degree string
+2677,chunk array
+2251,number flower full bloom
+3101,count alternating subarrays
+2768,number black block
+2817,minimum absolute difference element constraint
+2021,brightest position street
+1814,count nice pair array
+3412,find mirror score string
+1454,active user
+2107,number unique flavor sharing k candy
+2047,number valid word sentence
+2067,number equal count substring
+2719,count integer
+2986,find third transaction
+2603,collect coin tree
+809,expressive word
+2361,minimum cost using train line
+1515,best position service centre
+2702,minimum operation make number nonpositive
+1632,rank transform matrix
+1801,number order backlog
+782,transform chessboard
+1992,find group farmland
+2839,check string made equal operation
+1875,group employee salary
+1181,puzzle
+2165,smallest value rearranged number
+3667,sort array absolute value
+2008,maximum earnings taxi
+1023,camelcase matching
+2739,total distance traveled
+2627,debounce
+2604,minimum time eat grain
+2700,difference two object
+920,number music playlist
+1112,highest grade student
+1258,synonymous sentence
+2518,number great partition
+969,pancake sorting
+2988,manager largest department
+900,rle iterator
+2276,count integer interval
+568,maximum vacation day
+1452,people whose list favorite company subset another list
+1840,maximum building height
+2920,maximum point collecting coin node
+2171,removing minimum number magic bean
+3082,find sum power subsequence
+2343,query kth smallest trimmed number
+3209,number subarrays value k
+2875,minimum size subarray infinite array
+2430,maximum deletion string
+2387,median row wise sorted matrix
+2660,determine winner bowling game
+2644,find maximum divisibility score
+1927,sum game
+1569,number way reorder array get bst
+2984,find peak calling hour city
+2617,minimum number visited cell grid
+2680,maximum
+943,find shortest superstring
+3323,minimize connected group inserting interval
+3332,maximum point tourist earn
+668,kth smallest number multiplication table
+3383,minimum rune add cast spell
+1579,remove max number edge keep graph fully traversable
+1434,number way wear different hat
+3628,maximum number subsequence one inserting
+1328,break palindrome
+2388,change null value table previous value
+2838,maximum coin hero collect
+2030,smallest klength subsequence occurrence letter
+2968,apply operation maximize frequency score
+2137,pour water bucket make water level equal
+2869,minimum operation collect element
+2552,count increasing quadruplet
+2473,minimum cost buy apple
+2479,maximum xor two nonoverlapping subtrees
+2538,difference maximum minimum price sum
+1535,find winner array game
+1542,find longest awesome substring
+2301,match substring replacement
+3588,find maximum area triangle
+2326,spiral matrix iv
+3883,count non decreasing array given digit sum
+1173,immediate food delivery
+2565,subsequence minimum score
+2611,mouse cheese
+1664,way make fair array
+854,ksimilar string
+3123,find edge shortest path
+1001,grid illumination
+1178,number valid word puzzle
+1250,check good array
+1845,seat reservation manager
+928,minimize malware spread ii
+1005,maximize sum array k negation
+2098,subsequence size k largest even sum
+1426,counting element
+3496,maximize score pair deletion
+1690,stone game vii
+1420,build array find maximum exactly k comparison
+1397,find good string
+306,additive number
+1215,stepping number
+2354,number excellent pair
+1101,earliest moment everyone become friend
+2168,unique substring equal digit frequency
+2366,minimum replacement sort array
+1451,rearrange word sentence
+2533,number good binary string
+1560,visited sector circular track
+255,verify preorder sequence binary search tree
+1291,sequential digit
+591,tag validator
+3033,modify matrix
+1744,eat favorite candy favorite day
+948,bag token
+2019,score student solving math expression
+2093,minimum cost reach city discount
+982,triple bitwise equal zero
+2750,way split array good subarrays
+3576,transform array equal element
+850,rectangle area ii
+3663,find least frequent digit
+2901,longest unequal adjacent group subsequence ii
+2900,longest unequal adjacent group subsequence
+2177,find three consecutive integer sum given number
+3441,minimum cost good caption
+3367,maximize sum weight edge removal
+2867,count valid path tree
+3710,maximum partition factor
+810,chalkboard xor game
+2144,minimum cost buying candy discount
+1016,binary string substring representing n
+1195,fizz buzz multithreaded
+2162,minimum cost set cooking time
+3119,maximum number pothole fixed
+2061,number space cleaning robot cleaned
+2850,minimum move spread stone grid
+2086,minimum number food bucket feed hamster
+2849,determine cell reachable given time
+2610,convert array array condition
+2087,minimum cost homecoming robot grid
+2420,find good index
+2446,determine two event conflict
+1116,print zero even odd
+3001,minimum move capture queen
+1427,perform string shift
+3167,better compression string
+1771,maximize palindrome length subsequence
+3437,permutation iii
+2714,find shortest path k hop
+1247,minimum swap make string equal
+1522,diameter nary tree
+3885,design event manager
+246,strobogrammatic number
+249,group shifted string
+259,sum smaller
+276,paint fence
+288,unique word abbreviation
+293,flip game
+294,flip game ii
+320,generalized abbreviation
+331,verify preorder serialization binary tree
+351,android unlock pattern
+356,line reflection
+360,sort transformed array
+361,bomb enemy
+382,linked list random node
+393,utf validation
+418,sentence screen fitting
+422,valid word square
+425,word square
+469,convex polygon
+471,encode string shortest length
+484,find permutation
+2031,count subarrays one zero
+1059,path source lead destination
+514,freedom trail
+521,longest uncommon subsequence
+524,longest word dictionary deleting
+531,lonely pixel
+533,lonely pixel ii
+544,output contest match
+549,binary tree longest consecutive sequence ii
+562,longest line consecutive one matrix
+604,design compressed string iterator
+629,k inverse pair array
+644,maximum average subarray ii
+651,key keyboard
+656,coin path
+683,k empty slot
+691,sticker spell word
+722,remove comment
+732,calendar iii
+734,sentence similarity
+748,shortest completing word
+753,cracking safe
+758,bold word string
+760,find anagram mapping
+702,search sorted array unknown size
+789,escape ghost
+800,similar rgb color
+803,brick falling hit
+816,ambiguous coordinate
+823,binary tree factor
+830,position large group
+835,image overlap
+519,random flip matrix
+906,super palindrome
+914,x kind deck card
+952,largest component size common factor
+954,array doubled pair
+975,odd even jump
+1055,shortest way form string
+1057,campus bike
+1012,number repeated digit
+1066,campus bike ii
+1056,confusing number
+1088,confusing number ii
+1037,valid boomerang
+1121,divide array increasing sequence
+1165,singlerow keyboard
+1153,string transforms another string
+1182,shortest distance target color
+1078,occurrence bigram
+1199,minimum time build block
+1090,largest value label
+1117,building h
+1096,brace expansion ii
+1231,divide chocolate
+1272,remove interval
+1114,print order
+1619,mean array removing element
+1286,iterator combination
+1138,alphabet board path
+1313,decompress runlength encoded list
+1314,matrix block sum
+1316,distinct echo substring
+1144,decrease element make array zigzag
+1147,longest chunked palindrome decomposition
+1170,compare string frequency smallest character
+1184,distance bus stop
+1706,ball fall
+1618,maximum font fit sentence screen
+2218,maximum value k coin pile
+1269,number way stay place step
+1320,minimum distance type word using two finger
+1401,circle rectangle overlapping
+1414,find minimum number fibonacci number whose sum k
+1406,stone game iii
+1447,simplified fraction
+1449,form largest integer digit add target
+1444,number way cutting pizza
+1477,find two nonoverlapping subarrays target sum
+1471,k strongest value array
+1499,max value equation
+1503,last moment ant fall plank
+1546,maximum number nonoverlapping subarrays sum equal target
+1516,move subtree nary tree
+1553,minimum number day eat n orange
+1538,guess majority hidden array
+1562,find latest group size
+1548,similar path graph
+1591,strange printer ii
+1585,check string transformable substring sort operation
+1592,rearrange space word
+1595,minimum cost connect two group point
+1580,put box warehouse ii
+1600,throne inheritance
+1728,cat mouse ii
+1602,find nearest right node binary tree
+1612,check two expression tree equivalent
+1630,arithmetic subarrays
+1655,distribute repeating integer
+1673,find competitive subsequence
+1660,correct binary tree
+1703,minimum adjacent swap k consecutive one
+1666,change root binary tree
+1697,checking existence edge length limited path
+1707,maximum xor element array
+1692,count way distribute candy
+1708,largest subarray length k
+1736,latest time replacing hidden digit
+1737,change minimum character satisfy one three condition
+1738,find kth largest xor coordinate value
+1724,checking existence edge length limited path ii
+1766,tree coprimes
+1753,maximum score removing stone
+1759,count number homogenous substring
+1770,maximum score performing multiplication operation
+1774,closest dessert cost
+1756,design recently used queue
+1786,number restricted path first last node
+1767,find subtasks execute
+1793,maximum score good subarray
+1815,maximum number group getting fresh donut
+1802,maximum value given index bounded array
+1807,evaluate bracket pair string
+1806,minimum number operation reinitialize permutation
+1794,count pair equal substring minimum difference
+1824,minimum sideway jump
+1810,minimum path cost hidden grid
+1821,find customer positive revenue year
+1850,minimum adjacent swap reach kth smallest number
+1866,number way rearrange stick k stick visible
+1896,minimum cost change final value expression
+1858,longest word prefix
+1883,minimum skip arrive meeting time
+1899,merge triplet form target triplet
+1874,minimize product sum two array
+1906,minimum absolute difference query
+1915,number wonderful substring
+1891,cutting ribbon
+1918,kth smallest subarray sum
+1940,longest common subsequence sorted array
+1924,erect fence ii
+1966,binary searchable number unsorted array
+1987,number unique good subsequence
+1996,number weak character game
+2018,check word placed crossword
+2059,minimum operation convert number
+2088,count fertile pyramid land
+2076,process restricted friend request
+2077,path maze lead room
+2105,watering plant ii
+2122,recover original array
+2126,destroying asteroid
+2135,count word obtained adding letter
+2155,division highest score binary array
+2128,remove one row column flip
+2178,maximum split positive even integer
+2167,minimum time remove car containing illegal good
+2172,maximum sum array
+2188,minimum time finish race
+2209,minimum white tile covering carpet
+2190,frequent number following key array
+2174,remove one row column flip ii
+2203,minimum weighted subgraph required path
+2255,count prefix given string
+2224,minimum number operation convert time
+2267,check valid parenthesis string path
+2241,design atm machine
+2242,maximum score node sequence
+2271,maximum white tile covered carpet
+2280,minimum line represent line chart
+2283,check number equal digit count digit value
+2284,sender largest word count
+2286,booking concert ticket group
+2237,count position street required brightness
+2254,design video sharing platform
+2313,minimum flip binary tree get result
+2315,count asterisk
+2332,latest time catch bus
+2349,design number container system
+2350,shortest impossible sequence roll
+2369,check valid partition array
+2363,merge similar item
+2392,build matrix condition
+2345,finding number visible mountain
+2459,sort array moving item empty space
+2371,minimize maximum value grid
+2424,longest uploaded prefix
+2442,count number distinct integer reverse operation
+2458,height binary tree subtree removal query
+2476,closest node query binary search tree
+2478,number beautiful partition
+2531,make number distinct character equal
+2556,disconnect path binary matrix one flip
+2510,check path equal number
+2589,minimum time complete task
+2626,array reduce transformation
+2831,find longest equal subarray
+2689,extract kth character rope tree
+2763,sum imbalance number subarrays
+2728,count house circular street
+2812,find safest path grid
+2857,count pair point distance k
+2851,string transformation
+2842,count ksubsequences string maximum beauty
+2878,get size dataframe
+2919,minimum increment operation make array beautiful
+2923,find champion
+2924,find champion ii
+2925,maximum score applying operation tree
+2963,count number good partition
+2936,number equal number block
+2967,minimum cost make array equalindromic
+3007,maximum number sum price less equal k
+2982,find longest special substring occurs thrice ii
+3027,find number way place people ii
+3041,maximize consecutive element array modification
+3044,frequent prime
+3114,latest time obtain replacing character
+3117,minimum sum value dividing array
+3093,longest common suffix query
+3137,minimum number operation make word kperiodic
+3128,right triangle
+3153,sum digit difference pair
+2025,maximum number way partition array
+2057,smallest index equal value
+2103,ring rod
+247,strobogrammatic number ii
+2158,amount new area painted day
+2184,number way build sturdy brick wall
+2260,minimum consecutive card pick
+302,smallest rectangle enclosing black pixel
+2331,evaluate boolean binary tree
+379,design phone directory
+2367,number arithmetic triplet
+447,number boomerang
+458,poor pig
+2407,longest increasing subsequence ii
+2437,number valid clock time
+482,license key formatting
+522,longest uncommon subsequence ii
+616,add bold tag string
+659,split array consecutive subsequence
+681,next closest time
+685,redundant connection ii
+2618,check object instance class
+806,number line write string
+807,max increase keep city skyline
+497,random point nonoverlapping rectangle
+963,minimum area rectangle ii
+2863,maximum length semidecreasing subarrays
+1361,validate binary tree node
+1218,longest arithmetic subsequence given difference
+1237,find positive integer solution given equation
+3196,maximize total cost alternating subarrays
+1296,divide array set k consecutive number
+1377,frog position second
+1442,count triplet form two array equal xor
+1476,subrectangle query
+1528,shuffle string
+1605,find valid matrix given row column sum
+1587,bank account summary ii
+1616,split two string make palindrome
+1825,finding mk average
+1844,replace digit character
+1884,egg drop egg n floor
+709,lower case
+2045,second minimum time reach destination
+2678,number senior citizen
+745,prefix suffix search
+2955,number sameend substring
+3054,binary tree node
+770,basic calculator iv
+592,fraction addition subtraction
+2699,modify graph edge weight
+3277,maximum xor score subarray query
+3282,reach end array max score
+2985,calculate compressed mean
+3287,find maximum sequence value array
+2991,top three winery
+2987,find expensive city
+2989,class performance
+2990,loan type
+3275,kth nearest obstacle query
+2995,viewer turned streamer
+3008,find beautiful index given array ii
+2521,distinct prime factor product array
+3165,maximum sum subsequence nonadjacent element
+3312,sorted gcd pair query
+3248,snake matrix
+883,projection area shape
+1348,tweet count per frequency
+2263,make array nondecreasing nonincreasing
+3283,maximum number move kill pawn
+3319,kth largest perfect subtree size binary tree
+3327,check dfs string palindrome
+3337,total character string transformation ii
+3325,count substring kfrequency character
+3097,shortest subarray least k ii
+3350,adjacent increasing subarrays detection ii
+3351,sum good subsequence
+1185,day week
+364,nested list weight sum ii
+423,reconstruct original digit english
+3184,count pair form complete day
+3380,maximum area rectangle point constraint
+2891,method chaining
+2886,change data type
+1704,determine string half alike
+3316,find maximum removal source string
+3203,find minimum diameter merging two tree
+192,word frequency
+3270,find key number
+1712,way split array three subarrays
+3387,maximize amount two day conversion
+3410,maximize subarray sum removing occurrence one element
+1252,cell odd value matrix
+1154,day year
+3419,minimize maximum edge weight graph
+3420,count nondecreasing subarrays k operation
+2425,bitwise xor pairing
+1156,swap longest repeated character substring
+3409,longest subsequence decreasing adjacent difference
+3389,minimum operation make character frequency equal
+3258,count substring satisfy kconstraint
+3280,convert date binary
+1855,maximum distance pair value
+1340,jump game v
+1678,goal parser interpretation
+2306,naming company
+3158,find xor number appear twice
+3285,find index stable mountain
+2888,reshape data concatenate
+3472,longest palindromic subsequence k operation
+2335,minimum amount time fill cup
+3468,find number copy array
+3481,apply substitution
+3271,hash divided string
+3398,smallest substring identical character
+1227,airplane seat assignment probability
+3185,count pair form complete day ii
+2731,movement robot
+1407,top traveller
+1873,calculate special bonus
+3303,find occurrence first almost equal substring
+3149,find minimum cost array permutation
+2818,apply operation maximize score
+3240,minimum number flip make binary grid palindromic ii
+2572,count number squarefree subset
+2069,walking robot simulation ii
+1952,three divisor
+2573,find string lcp
+3489,zero array transformation iv
+2727,object empty
+2999,count number powerful integer
+3272,find count good integer
+2277,closest node path tree
+3486,longest special path ii
+3523,make array nondecreasing
+3532,path existence query graph
+2614,prime diagonal
+3529,count cell overlapping horizontal vertical substring
+999,available capture rook
+1537,get maximum score
+3537,fill special grid
+3538,merge operation minimum travel time
+3343,count number balanced permutation
+3551,minimum swap sort digit sum
+1374,generate string character odd count
+3536,maximum product two digit
+1890,latest login
+3372,maximize number target node connecting tree
+972,equal rational number
+3373,maximize number target node connecting tree ii
+1563,stone game v
+3361,shift distance two string
+1239,maximum length concatenated string unique character
+3574,maximize subarray gcd score
+1787,make xor segment equal zero
+499,maze iii
+1995,count special quadruplet
+1349,maximum student taking exam
+822,card flipping game
+3585,find weighted median node tree
+3593,minimum increment equalize leaf path
+3592,inverse coin change
+3049,earliest second mark index ii
+1755,closest subsequence sum
+1402,reducing dish
+2233,maximum product k increment
+3597,partition string
+467,unique substring wraparound string
+3503,longest palindrome substring concatenation
+811,subdomain visit count
+466,count repetition
+1985,find kth largest integer array
+1416,restore array
+3625,count number trapezoid ii
+3417,zigzag grid traversal skip
+3619,count island total value divisible k
+3589,count primegap balanced subarrays
+194,transpose file
+3630,partition array maximum xor
+3646,next special palindrome number
+1473,paint house iii
+1837,sum digit base k
+2156,find substring given hash value
+3659,partition array kdistinct group
+2996,smallest missing integer greater sequential prefix sum
+3320,count number winning sequence
+3671,sum beautiful subsequence
+3411,maximum subarray equal product
+3686,number stable subsequence
+3238,find number winning player
+3685,subsequence sum capping element
+1263,minimum move move box target location
+3534,path existence query graph ii
+3665,twisted mirror path count
+2433,find original array prefix xor
+2148,count element strictly smaller greater element
+3382,maximum area rectangle point constraint ii
+1486,xor operation array
+3504,longest palindrome substring concatenation ii
+3695,maximize alternating sum using swap
+3698,split array minimum difference
+2651,calculate delayed arrival time
+156,binary tree upside
+2529,maximum count positive integer negative integer
+2056,number valid move combination chessboard
+2595,number even odd bit
+1964,find longest valid obstacle course position
+3492,maximum container ship
+3738,longest nondecreasing subarray replacing one element
+3421,find student improved
+915,partition array disjoint interval
+2164,sort even odd index independently
+3747,count distinct integer removing zero
+2659,make array empty
+3550,smallest index digit sum equal index
+3756,concatenate nonzero digit multiply sum ii
+1949,strong friendship
+3751,total waviness number range
+3770,largest prime consecutive prime sum
+3614,process string special operation ii
+3606,coupon code validator
+2778,sum square special element
+3562,maximum profit trading stock discount
+2496,maximum value string array
+3499,maximize active section trade
+2625,flatten deeply nested array
+2630,memoize ii
+3545,minimum deletion k distinct character
+2791,count path form palindrome tree
+3803,count residue prefix
+3805,count caesar cipher pair
+2225,find player zero one loss
+3815,design auction system
+1191,kconcatenation maximum sum
+1641,count sorted vowel string
+3821,find nth smallest integer k one bit
+3599,partition array minimize xor
+3824,minimum k reduce array within limit
+2269,find kbeauty number
+1796,second largest digit string
+3475,dna pattern recognition
+3586,find covid recovery patient
+3732,maximum product three element one replacement
+3336,find number subsequence equal gcd
+2358,maximum number group entering competition
+3850,count sequence k
+3858,minimum bitwise grid
+3643,flip square submatrix vertically
+1318,minimum flip make b equal c
+3548,equal sum grid partition ii
+3490,count beautiful number
+2368,reachable node restriction
+2715,timeout cancellation
+3882,minimum xor path grid
+3896,minimum operation transform array alternating prime
+3894,traffic signal color
+2400,number way reach position exactly k step
+3448,count substring divisible last digit
+3862,find smallest balanced index
+3723,maximize sum square digit
+3900,longest balanced substring one swap
+1391,check valid path grid
+3742,maximum path score grid
+2553,separate digit array
+3569,maximize count distinct prime split
+654,maximum binary tree
+3932,count kth root range
+3935,power update kth largest insertion
+1073,adding two negabinary number
+1253,reconstruct row binary matrix
+2998,minimum number operation make x equal
+1097,game play analysis v
+534,game play analysis iii
+2745,construct longest new string
+1324,print word vertically
+3878,count good subarrays
+3143,maximum point inside square
+3051,find candidate data scientist position
+3052,maximize item
+1505,minimum possible integer k adjacent swap digit
+3003,maximize number partition operation
+927,three equal part
+660,remove
+2508,add edge make degree node even
+1566,detect pattern length repeated k time
+1702,maximum binary string change
+1063,number valid subarrays
+2904,shortest lexicographically smallest beautiful string
+2907,maximum profitable triplet increasing price
+2921,maximum profitable triplet increasing price ii
+3096,minimum level gain point
+1208,get equal substring within budget
+3107,minimum operation make median array equal k
+3145,find product element big array
+3175,find first player win k game row
+2432,employee worked longest task
+1355,activity participant
+2455,average value even number divisible three
+2580,count way group overlapping range
+2451,odd string difference
+1974,minimum time type word using special typewriter
+2038,remove colored piece neighbor color
+3295,report spam message
+3402,minimum operation make column strictly increasing
+1604,alert using keycard three time one hour period
+985,sum even number query
+2547,minimum cost split array
+2133,check every row column contains number
+3334,find maximum factor score array
+3265,count almost equal pair
+1946,largest number mutating substring
+1124,longest wellperforming interval
+2382,maximum segment sum removal
+2445,number node value one
+1540,convert string k move
+2612,minimum reverse operation
+2829,determine minimum sum kavoiding array
+1798,maximum number consecutive value make
+2827,number beautiful integer range
+2834,find minimum possible sum beautiful array
+1872,stone game viii
+3457,eat pizza
+3467,transform array parity
+3575,maximum good subtree score
+3539,find sum array product magical sequence
+3901,good subsequence query
+2526,find consecutive integer data stream
+2234,maximum total beauty garden
+3148,maximum difference score grid
+3088,make string antipalindrome
+2453,destroy sequential target
+2489,number substring fixed ratio
+3376,minimum time break lock
+3385,minimum time break lock ii
+634,find derangement array
+2809,minimum time make array sum x
+2085,count common word one occurrence
+1418,display table food order restaurant
+1812,determine color chessboard square
+1843,suspicious bank account
+3216,lexicographically smallest string swap
+1629,slowest key
+3818,minimum prefix removal make array strictly increasing
+2374,node highest edge score
+3515,shortest path weighted tree
+3842,toggle light bulb
+2212,maximum point archery competition
+1210,minimum move reach target rotation
+3584,maximum product first last element subsequence
+3079,find sum encrypted integer
+478,generate random point circle
+1663,smallest string given numeric value
+1951,pair maximum number common follower
+245,shortest word distance iii
+254,factor combination
+2472,maximum number nonoverlapping palindrome substring
+2431,maximize total tastiness purchased fruit
+2532,time cross bridge
+671,second minimum node binary tree
+1107,new user daily count
+1127,user purchase platform
+1149,article view ii
+265,paint house ii
+3891,minimum increase maximize special index
+949,largest time given digit
+1994,number good subset
+2157,group string
+1620,coordinate maximum network quality
+1336,number transaction per visit
+1714,sum special evenlyspaced element array
+2370,longest ideal subsequence
+2861,maximum number alloy
+2514,count anagram
+3048,earliest second mark index
+1220,count vowel permutation
+1938,maximum genetic difference query
+1959,minimum total space wasted k resizing operation
+2852,sum remoteness cell
+1222,queen attack king
+1879,minimum xor sum two array
+2835,minimum operation form subsequence target sum
+3291,minimum number valid string form target
+2930,number string rearranged contain substring
+2953,count complete substring
+3513,number unique xor triplet
+3514,number unique xor triplet ii
+3709,design exam score tracker
+2980,check bitwise trailing zero
+275,hindex ii
+333,largest bst subtree
+578,get highest answer rate question
+597,friend request overall acceptance rate
+639,decode way ii
+750,number corner rectangle
+764,largest plus sign
+893,group specialequivalent string
+998,maximum binary tree ii
+1033,moving stone consecutive
+1040,moving stone consecutive ii
+1076,project employee ii
+1077,project employee iii
+1113,reported post
+1132,reported post ii
+1142,user activity past day ii
+1428,leftmost column least one
+1241,number comment per post
+1264,page recommendation
+1322,ad performance
+1357,apply discount every n order
+1398,customer bought product b c
+1453,maximum number dart inside circular dartboard
+1445,apple orange
+1586,binary search tree iterator ii
+1826,faulty sensor
+1868,product two runlength encoded array
+1892,page recommendation ii
+1947,maximum compatibility score sum
+1973,count node equal sum descendant
+2199,finding topic post
+2289,step make array nondecreasing
+2655,find maximal uncovered range
+3527,find common response
+3533,concatenated divisibility
+2865,beautiful tower
+3561,resulting string adjacent removal
+2608,shortest cycle graph
+3566,partition array two equal product subset
+3688,bitwise even number array
+2954,count number infection sequence
+3697,compute decimal representation
+3570,find book available copy
+1098,unpopular book
+612,shortest distance plane
+1393,capital gainloss
+2760,longest even odd subarray threshold
+3690,split merge array transformation
+3829,design ride sharing system
+3816,lexicographically smallest string deleting duplicate character
+2248,intersection multiple array
+1983,widest pair index equal range sum
+672,bulb switcher ii
+1053,previous permutation one swap
+1093,statistic large sample
+1273,delete tree node
+1246,palindrome removal
+2321,maximum score spliced array
+2216,minimum deletion make array beautiful
+2309,greatest english letter upper lower case
+1285,find start end number continuous range
+1375,number time binary string prefixaligned
+1369,get second recent activity
+1417,reformat string
+1469,find lonely node
+1510,stone game iv
+1474,delete n node node linked list
+1573,number way split string
+1576,replace avoid consecutive repeating character
+1615,maximal network rank
+1638,count substring differ one character
+1681,minimum incompatibility
+1808,maximize number nice divisor
+1887,reduction operation make array element equal
+1904,number full round played
+2052,minimum cost separate sentence row
+2015,average height building segment
+2208,minimum operation halve array sum
+2339,match league
+2450,number distinct binary string applying operation
+2599,make prefix sum nonnegative
+2548,maximum price fill bag
+2664,knight’s tour
+2847,smallest number given digit product
+3009,maximum number intersection chart
+3038,maximum number operation score
+3111,minimum rectangle cover point
+3157,find level tree minimum sum
+3099,harshad number
+3259,maximum energy boost two drink
+3377,digit operation make two integer equal
+1839,longest substring vowel order
+3393,count path given xor value
+3144,minimum substring partition equal character frequency
+2525,categorize box according criterion
+2908,minimum sum mountain triplet
+3772,maximum subgraph score tree
+3797,count route climb rectangular grid
+1624,largest substring two equal character
+1189,maximum number balloon
+3090,maximum length substring two occurrence
+2204,distance cycle undirected graph
+2299,strong password checker ii
+2151,maximum good people based statement
+1982,find array given subset sum
+2180,count integer even digit sum
+3132,find integer added array ii
+3213,construct string minimum cost
+3180,maximum total reward using operation
+3181,maximum total reward using operation ii
+3095,shortest subarray least k
+2978,symmetric coordinate
+3837,delayed count equal element
+1835,find xor sum pair bitwise
+1897,redistribute character make string equal
+2811,check possible split array
+2759,convert json string object
+2152,minimum number line cover point
+936,stamping sequence
+2607,make ksubarray sum equal
+3852,smallest pair different frequency
+3556,sum largest prime substring
+2642,design graph shortest path calculator
+1003,check word valid substitution
+1157,online majority element subarray
+2428,maximum sum hourglass
+1687,delivering box storage port
+2712,minimum cost make character equal
+2539,count number good subsequence
+1487,making file name unique
+3662,filter character frequency
+3822,design order management system
+1555,bank account summary
+2549,count distinct number board
+2836,maximize value function ball passing game
+3015,count number house certain distance
+3017,count number house certain distance ii
+3799,word square ii
+3680,generate schedule
+2312,selling piece wood
+1999,smallest greater multiple made two digit
+2183,count array pair divisible k
+2586,count number vowel string range
+2524,maximum frequency score subarray
+2557,maximum number integer choose range ii
+1589,maximum sum obtained permutation
+3820,pythagorean distance node tree
+2903,find index index value difference
+2905,find index index value difference ii
+2475,number unequal triplet array
+3711,maximum transaction without negative balance
+2721,execute asynchronous function parallel
+1599,maximum profit operating centennial wheel
+2543,check point reachable
+3435,frequency shortest supersequences
+2213,longest substring one repeating character
+2232,minimize result adding parenthesis expression
+571,find median given frequency number
+1294,weather type country
+1440,evaluate boolean expression
+786,kth smallest prime fraction
+1159,market analysis ii
+2862,maximum elementsum complete subset index
+1183,maximum number one
+1256,encode number
+2080,range frequency query
+1354,construct target array multiple sum
+2499,minimum total cost make array unequal
+2240,number way buy pen pencil
+1364,number trusted contact customer
+1419,minimum number frog croaking
+2132,stamping grid
+3098,find sum subsequence power
+3083,existence substring string reverse
+2249,count lattice point inside circle
+3207,maximum point enemy battle
+3525,find x value array ii
+3524,find x value array
+2068,check whether two string almost equivalent
+2866,beautiful tower ii
+1150,check number majority element sorted array
+2957,remove adjacent almostequal character
+2992,number selfdivisible permutation
+3125,maximum number make result bitwise zero
+3171,find subarray bitwise closest k
+3135,equalize string adding removing character end
+3200,maximum height triangle
+1659,maximize grid happiness
+831,masking personal information
+3313,find last marked node tree
+3399,smallest substring identical character ii
+3540,minimum time visit house
+2029,stone game ix
+1519,number node subtree label
+2662,minimum cost path special road
+1675,minimize deviation array
+2810,faulty keyboard
+1830,minimum number operation make string sorted
+3352,count kreducible number less n
+2063,vowel substring
+3106,lexicographically smallest string operation constraint
+2318,number distinct roll sequence
+3868,minimum cost equalize array using swap
+1885,count pair two array
+3187,peak array
+439,ternary expression parser
+1754,largest merge two string
+964,least operator express number
+2856,minimum array length pair removal
+3177,find maximum length good subsequence ii
+3176,find maximum length good subsequence
+3155,maximum number upgradable server
+3880,minimum absolute difference two value
+2005,subtree removal game fibonacci tree
+1917,leetcodify friend recommendation
+1919,leetcodify similar friend
+2846,minimum edge weight equilibrium query tree
+2546,apply bitwise operation make string equal
+2897,apply operation array maximize sum square
+3031,minimum time revert word initial state ii
+3029,minimum time revert word initial state
+1746,maximum subarray sum one operation
+1799,maximize score n operation
+2378,choose edge maximize score tree
+2440,create component value
+573,squirrel simulation
+1990,count number experiment
+3065,minimum operation exceed threshold value
+1745,palindrome partitioning iv
+2993,friday purchase
+1125,smallest sufficient team
+625,minimum factorization
+3766,minimum operation make binary palindrome
+3067,count pair connectable server weighted tree network
+3226,number bit change make two integer equal
+2941,maximum gcdsum subarray
+2456,popular video creator
+2640,find score prefix array
+3086,minimum move pick k one
+1860,incremental memory leak
+2931,maximum spending buying item
+2673,make cost path equal binary tree
+2605,form smallest number two digit array
+2609,find longest balanced substring binary string
+2564,substring xor query
+2569,handling sum query update
+2403,minimum time kill monster
+3138,minimum length anagram concatenation
+3091,apply operation make sum array greater equal k
+3122,minimum number operation satisfy condition
+2585,number way earn point
+2121,interval identical element
+1435,create session bar chart
+1500,design file sharing system
+1230,toss strange coin
+580,count student number department
+1459,rectangle area
+1785,minimum element add form given sum
+1064,fixed point
+1635,hopper company query
+1645,hopper company query ii
+1651,hopper company query iii
+1719,number way reconstruct tree
+1705,maximum number eaten apple
+1818,minimum absolute sum difference
+1968,array element equal average neighbor
+1961,check string prefix array
+1967,number string appear substring word
+2243,calculate digit sum string
+2282,number people seen grid
+2555,maximize win two segment
+2848,point intersect car
+2912,number way reach destination grid
+3023,find pattern infinite stream
+3037,find pattern infinite stream ii
+3073,maximum increasing triplet value
+3078,match alphanumerical pattern matrix
+3192,minimum operation make binary array element equal one ii
+3466,maximum coin collection
+2636,promise pool
+1627,graph connectivity threshold
+2826,sorting three group
+3511,make positive array
+3115,maximum prime difference
+2755,deep merge two object
+1803,count pair xor range
+1243,array transformation
+1180,count substring one distinct letter
+1271,hexspeak
+1196,many apple put basket
+3039,apply operation make string empty
+2136,earliest possible day full bloom
+3915,maximum sum alternating subsequence distance least k
+2217,find palindrome fixed length
+2072,winner university
+2541,minimum operation make array equal ii
+1238,circular permutation binary representation
+3179,find nth value k second
+3696,maximum distance unequal word array
+2020,number account stream
+1194,tournament winner
+1212,team score football tournament
+2186,minimum number step make two string anagram ii
+1205,monthly transaction ii
+2814,minimum time take reach destination without drowning
+479,largest palindrome product
+1030,matrix cell distance order
+2743,count substring without repeating character
+1126,active business
+1333,filter restaurant veganfriendly price distance
+2896,apply operation make two string equal
+3205,maximum array hopping score
+3221,maximum array hopping score ii
+3827,count monobit integer
+3853,merge close character
+2584,split array make coprime product
+2505,bitwise subsequence sum
+3602,hexadecimal hexatrigesimal conversion
+2932,maximum strong pair xor
+2935,maximum strong pair xor ii
