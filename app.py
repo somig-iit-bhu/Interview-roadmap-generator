@@ -66,7 +66,13 @@ st.markdown("""
 
 @st.cache_resource
 def load_engine():
-    return recommendation_engine.InterviewIntelligenceEngine()
+    hf_url = None
+    try:
+        if "HF_DATASET_URL" in st.secrets:
+            hf_url = st.secrets["HF_DATASET_URL"]
+    except Exception:
+        pass
+    return recommendation_engine.InterviewIntelligenceEngine(hf_dataset_url=hf_url)
 
 engine = load_engine()
 

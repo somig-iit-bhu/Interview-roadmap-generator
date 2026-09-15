@@ -6,14 +6,17 @@ Author: Placement Candidate (2026)
 import pandas as pd
 import numpy as np
 import ast
+import os
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 class InterviewIntelligenceEngine:
-    def __init__(self, data_dir='data/processed', embedding_path='question_embeddings.npy'):
+    def __init__(self, data_dir='data/processed', embedding_path='question_embeddings.npy', hf_dataset_url=None):
         print("Initializing High-Performance Interview Intelligence Engine...")
         self.questions = pd.read_csv(f"{data_dir}/question_info.csv")
-        self.final_ds = pd.read_csv(f"{data_dir}/final_dataset.csv")
+        
+        # Smart Fail-Safe Loader for final_dataset.csv (Supports HF URL & Lightweight Fallback)
+        self.final_ds = self._load_final_dataset(data_dir, hf_dataset_url)
         self.company_features = pd.read_csv(f"{data_dir}/all_company_feature_final.csv")
         self.embeddings = np.load(embedding_path)
         
@@ -24,7 +27,7 @@ class InterviewIntelligenceEngine:
         # Build ID to Embedding Index lookup & reverse lookup
         self.id_to_idx = {qid: idx for idx, qid in enumerate(self.questions['ID'])}
         self.idx_to_id = {idx: qid for idx, qid in enumerate(self.questions['ID'])}
-        
+
         # Parse topics into clean python list
         self.questions['parsed_topics'] = self.questions['topics'].apply(self._parse_topics)
         self.questions['PrimaryTopic'] = self.questions['parsed_topics'].apply(lambda x: x[0] if x else 'General')
@@ -50,6 +53,33 @@ class InterviewIntelligenceEngine:
         # Build Global Company Embeddings (Frequency-Weighted)
         self.company_embeddings = self._build_company_embeddings_weighted(self.final_ds)
         print("Engine Initialized Successfully!")
+
+    def _load_final_dataset(self, data_dir, hf_url=None):
+        local_path = f"{data_dir}/final_dataset.csv"
+        if os.path.exists(local_path):
+            print(f"Loading local dataset: {local_path}")
+            return pd.read_csv(local_path)
+        
+        # Check Hugging Face URL parameter or environment variable
+        target_hf_url = hf_url or os.environ.get("HF_DATASET_URL")
+        if target_hf_url:
+            try:
+                print(f"Downloading final_dataset.csv from Hugging Face URL: {target_hf_url}")
+                df = pd.read_csv(target_hf_url)
+                return df
+            except Exception as e:
+                print(f"Warning: Failed to load from Hugging Face URL ({e}).")
+
+        # Graceful Fallback to company_question.csv (pushed to GitHub)
+        fallback_path = f"{data_dir}/company_question.csv"
+        if os.path.exists(fallback_path):
+            print(f"Notice: {local_path} not found. Using GitHub fallback: {fallback_path}")
+            df = pd.read_csv(fallback_path)
+            if 'Frequency %' not in df.columns:
+                df['Frequency %'] = 100.0
+            return df
+
+        raise FileNotFoundError(f"Neither {local_path} nor fallback dataset ({fallback_path}) could be loaded.")
 
     def _parse_topics(self, topic_str):
         if pd.isna(topic_str) or not topic_str:
@@ -286,14 +316,9 @@ class InterviewIntelligenceEngine:
         q_per_week=4, 
         lambda_param=0.7
     ):
-        """
-        HIGH-PERFORMANCE MMR ROADMAP GENERATOR (FAST VECTORIZED IMPLEMENTATION)
-        Generates 8-week study plan in <50ms by vectorizing cosine matrix operations.
-        """
         scheduled_qids = set(solved_qids)
         roadmap_rows = []
 
-        # Get base candidate pool scored for company (top 150 candidates)
         candidates = self.recommend_questions(
             target_company=target_company,
             solved_qids=solved_qids,
@@ -303,10 +328,9 @@ class InterviewIntelligenceEngine:
         
         candidate_ids = candidates['ID'].tolist()
         candidate_indices = [self.id_to_idx[q] for q in candidate_ids if q in self.id_to_idx]
-        candidate_vecs = self.embeddings[candidate_indices] # shape (M, 384)
+        candidate_vecs = self.embeddings[candidate_indices]
         
-        # Precompute candidate-candidate pairwise cosine similarity matrix
-        cand_sim_matrix = cosine_similarity(candidate_vecs, candidate_vecs) # shape (M, M)
+        cand_sim_matrix = cosine_similarity(candidate_vecs, candidate_vecs)
         
         for week in range(1, num_weeks + 1):
             target_diff = 1.0 + 2.0 / (1.0 + np.exp(-0.8 * (week - num_weeks / 2.0)))
@@ -321,13 +345,10 @@ class InterviewIntelligenceEngine:
                     if qid in scheduled_qids:
                         continue
                         
-                    # Re-weight difficulty alignment dynamically for current week
                     diff_score = 1.0 - abs(row['difficulty_score'] if 'difficulty_score' in row else 2.0 - target_diff) / 2.0
                     base_rel = row['RecommendationScore'] + 0.1 * diff_score
                     
-                    # MMR Redundancy Penalty against questions scheduled in roadmap so far
                     if len(scheduled_qids) > len(solved_qids):
-                        # Find indices of scheduled questions in candidate list
                         sch_cand_indices = [i for i, c_id in enumerate(candidate_ids) if c_id in scheduled_qids]
                         if sch_cand_indices:
                             cand_pos = candidate_ids.index(qid)
@@ -437,9 +458,6 @@ class InterviewIntelligenceEngine:
 
 if __name__ == '__main__':
     engine = InterviewIntelligenceEngine()
-    print("Testing fast vectorized roadmap generation...")
-    import time
-    t0 = time.time()
-    rm = engine.generate_mmr_roadmap('google', [1, 2], num_weeks=8, q_per_week=4)
-    print(f"Roadmap generated in {round(time.time() - t0, 3)} seconds!")
-    print(rm[['Week', 'TargetDiff', 'ID', 'Title', 'Difficulty', 'Topic', 'FinalMMRScore']].head())
+    print("Testing recommendations...")
+    recs = engine.recommend_questions('google', [1, 2], top_k=3)
+    print(recs[['ID', 'Title', 'RecommendationScore']])
